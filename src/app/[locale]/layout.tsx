@@ -44,8 +44,8 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <Header lang={locale as 'en' | 'ar'} />
-      
-      {children}
+
+      <main className="pt-[100px]">{children}</main>
 
       <Footer lang={locale as 'en' | 'ar'} />
       <WhatsAppButton

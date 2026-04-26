@@ -22,12 +22,14 @@ export default function CtaBanner({ locale, prompt, buttonText }: CtaBannerProps
           </div>
 
           <div className="text-left lg:text-right">
-            <Link
-              href={`/${locale}/booking`}
+            <a
+              href="https://wa.me/+966540915000"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-[#0d1f3c] px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-amber-200/20 transition hover:bg-[#142a4a]"
             >
               {buttonText}
-            </Link>
+            </a>
           </div>
         </div>
       </div>

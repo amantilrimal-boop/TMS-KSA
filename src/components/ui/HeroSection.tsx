@@ -42,12 +42,14 @@ export default function HeroSection({
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <Link
-                href={`/${locale}/booking`}
+              <a
+                href="https://wa.me/+966540915000"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-[#f2a413] px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-[#d19e11]"
               >
                 {primaryCta}
-              </Link>
+              </a>
               <Link
                 href={`/${locale}/contact`}
                 className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/20"

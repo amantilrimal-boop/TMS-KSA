@@ -277,26 +277,90 @@ export default function Navbar({ lang }: { lang: Lang }) {
           </button>
         </div>
 
-        {/* Mobile Menu (simplified - you can expand with nested accordion if needed) */}
+        {/* Mobile Menu with nested accordion and auto-close behavior */}
         {mobileOpen && (
           <div className="lg:hidden py-6 border-t border-gray-200 bg-white z-[10001] relative">
-            {menuItems.map((item, i) => (
-              <Link
-                key={i}
-                href={`/${lang}${item.href}`}
-                className="block py-3 text-base font-medium text-[#2f3744]"
-              >
-                {item.label}
-              </Link>
-            ))}
+            {menuItems.map((item, i) => {
+              const hasChildren = Array.isArray(item.children) && item.children.length > 0;
+              const isExpanded = openSubMenu === item.href;
 
-            <Link
-              href={`/${lang}/booking`}
+              return (
+                <div key={i} className="border-b border-gray-100">
+                  {hasChildren ? (
+                    <button
+                      type="button"
+                      onClick={() => setOpenSubMenu(isExpanded ? null : item.href)}
+                      className="flex w-full items-center justify-between py-4 px-4 text-left text-base font-medium text-[#2f3744] hover:bg-gray-50"
+                      aria-expanded={isExpanded}
+                    >
+                      <span>{item.label}</span>
+                      <ChevronDown className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
+                    </button>
+                  ) : (
+                    <Link
+                      key={i}
+                      href={`/${lang}${item.href}`}
+                      onClick={() => setMobileOpen(false)}
+                      className="block py-4 px-4 text-base font-medium text-[#2f3744] hover:bg-gray-50"
+                    >
+                      {item.label}
+                    </Link>
+                  )}
+
+                  {hasChildren && isExpanded && (
+                    <div className="space-y-1 bg-slate-50 px-4 pb-4">
+                      {item.children?.map((child, childIndex) => {
+                        const hasSubChildren = Array.isArray(child.subChildren) && child.subChildren.length > 0;
+
+                        return hasSubChildren ? (
+                          <div key={childIndex} className="space-y-1">
+                            <Link
+                              href={`/${lang}${child.href}`}
+                              onClick={() => setMobileOpen(false)}
+                              className="block py-3 text-sm font-medium text-[#2f3744] rounded-xl px-3 hover:bg-white hover:text-[#0d4d66]"
+                            >
+                              {child.label}
+                            </Link>
+                            <div className="space-y-1 pl-4">
+                              {child.subChildren?.map((subChild, subIndex) => (
+                                <Link
+                                  key={subIndex}
+                                  href={`/${lang}${subChild.href}`}
+                                  onClick={() => setMobileOpen(false)}
+                                  className="block py-3 text-sm text-[#475262] rounded-xl px-3 hover:bg-white hover:text-[#0d4d66]"
+                                >
+                                  {subChild.label}
+                                </Link>
+                              ))}
+                            </div>
+                          </div>
+                        ) : (
+                          <Link
+                            key={childIndex}
+                            href={`/${lang}${child.href}`}
+                            onClick={() => setMobileOpen(false)}
+                            className="block py-3 text-sm text-[#475262] rounded-xl px-3 hover:bg-white hover:text-[#0d4d66]"
+                          >
+                            {child.label}
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+
+            <a
+              href="https://wa.me/+966540915000"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileOpen(false)}
               className="inline-flex items-center gap-2 mt-4 bg-[#f2a413] text-white px-6 py-3 rounded-full font-semibold"
             >
               <CalendarDays className="w-5 h-5" />
               {lang === "ar" ? "احجز الآن" : "Book Now"}
-            </Link>
+            </a>
           </div>
         )}
       </div>

@@ -22,12 +22,14 @@ export default function PricingCard({ plan, price, perks, featured }: PricingCar
           </li>
         ))}
       </ul>
-      <button
-        type="button"
+      <a
+        href="https://wa.me/+966540915000"
+        target="_blank"
+        rel="noopener noreferrer"
         className={`mt-8 inline-flex w-full items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition ${featured ? 'bg-amber-300 text-slate-950 hover:bg-amber-400' : 'bg-[#0d1f3c] text-white hover:bg-[#142a4a]'}`}
       >
         Choose Plan
-      </button>
+      </a>
     </div>
   );
 }
