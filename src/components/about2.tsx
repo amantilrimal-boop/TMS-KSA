@@ -38,26 +38,26 @@ const content = {
     visionLabel: 'our vision',
     missionTitle: 'Our Mission',
     missionText:
-      'To empower businesses across Saudi Arabia with transformative technology solutions — from custom software development and mobile apps to ERP systems and AI automation — that solve complex challenges and fuel sustainable growth. We are dedicated to delivering high-quality software and intelligent systems that exceed expectations, create lasting value, and enable our clients to lead in an ever-evolving digital world.',
+      'To deliver integrated marine and industrial contracting services across Saudi Arabia, from protective coatings and corrosion protection to thermal insulation, abrasive blasting, and equipment maintenance. We focus on safety, quality, and reliable execution for ships and facilities.',
     visionTitle: 'Our Vision',
     visionText:
-      'To be the premier software development company and technology partner for businesses navigating digital transformation in Saudi Arabia and the region. Renowned for our technical expertise, innovative solutions — including SaaS platforms, enterprise software, and AI development — and outstanding client service. We aim to redefine digital experiences and shape the future of technology across industries in KSA.',
-    whyTitle: 'Why Choose BRANDRAIZE — Software Development Company in Saudi Arabia',
+      'To be the trusted marine contracting partner for ship owners and facility operators across the Kingdom. We aim to lead with technical excellence, operational reliability, and services that protect assets and extend asset life.',
+    whyTitle: 'Why Choose TMS — Marine Contracting in Saudi Arabia',
     whyText:
-      'With specialized expertise in custom software, mobile app development, ERP systems, and IT infrastructure, our team delivers integrated technology services that empower businesses across Saudi Arabia. We combine experience, innovation, and trust to help our clients succeed — from startups to enterprise software companies in KSA.',
+      'With deep expertise across marine maintenance, protective coatings, corrosion control, and industrial services, our team delivers turnkey solutions that keep assets safe and operational. We combine local knowledge, technical skill, and responsive service to support projects across the KSA.',
     whyLabel: 'why us',
     cards: [
       {
-        title: 'Specialized Software Expertise',
-        text: 'A team of certified professionals with extensive experience in custom software development, mobile apps, SaaS platforms, and ERP systems — delivering measurable results for businesses in Riyadh and across Saudi Arabia.',
+        title: 'Marine Maintenance Expertise',
+        text: 'A highly skilled team delivering protective coating, insulation, and maintenance services for ships, offshore platforms, and industrial facilities across Saudi Arabia.',
       },
       {
-        title: 'Reliable Security',
-        text: 'Advanced security solutions and IT infrastructure support to protect your business — aligned with Saudi data protection regulations for peace of mind.',
+        title: 'Corrosion Protection',
+        text: 'Advanced corrosion control systems and protective solutions designed to extend asset life and improve operational safety in harsh marine environments.',
       },
       {
-        title: 'Wide Coverage Across KSA',
-        text: 'Integrated software and IT services across multiple industries and regions in Saudi Arabia — from Riyadh to across the Kingdom, serving enterprises, SMEs, and government organizations.',
+        title: 'Kingdom-wide Coverage',
+        text: 'Comprehensive contracting services throughout the Kingdom, serving customers in Jeddah, Dammam, Riyadh, and major coastal and inland project sites.',
       },
     ],
   },
@@ -67,26 +67,26 @@ const content = {
     visionLabel: 'رؤيتنا',
     missionTitle: 'مهمتنا',
     missionText:
-      'تمكين الشركات في جميع أنحاء المملكة العربية السعودية عبر حلول تقنية تحويلية، من تطوير البرمجيات المخصصة وتطبيقات الجوال إلى أنظمة ERP وأتمتة الذكاء الاصطناعي، لحل التحديات المعقدة ودعم النمو المستدام. نلتزم بتقديم برمجيات وأنظمة ذكية عالية الجودة تتجاوز التوقعات، وتخلق قيمة طويلة المدى، وتمكن عملاءنا من الريادة في عالم رقمي دائم التطور.',
+      'تقديم خدمات مقاولات بحرية وصناعية متكاملة في السعودية، من الطلاءات الوقائية والحماية من التآكل إلى العزل الحراري والسفع الكاشط وصيانة المعدات. نركز على السلامة والجودة والتنفيذ الموثوق للسفن والمنشآت.',
     visionTitle: 'رؤيتنا',
     visionText:
-      'أن نكون شركة تطوير البرمجيات والشريك التقني الأول للأعمال التي تقود التحول الرقمي في المملكة والمنطقة. نطمح إلى التميز بخبرتنا التقنية، وحلولنا المبتكرة مثل منصات SaaS والأنظمة المؤسسية وتطوير الذكاء الاصطناعي، إلى جانب خدمة عملاء استثنائية تعيد تعريف التجارب الرقمية وتشكل مستقبل التقنية في مختلف القطاعات داخل المملكة.',
-    whyTitle: 'لماذا تختار BRANDRAIZE كشركة تطوير برمجيات في السعودية',
+      'أن نكون الشريك الموثوق للأعمال البحرية والصناعية في المملكة، بقيادة تقنية متفوقة وتنفيذ يعتمد عليه وخدمات تحمي الأصول وتطيل عمرها.',
+    whyTitle: 'لماذا تختار TMS — المقاولات البحرية في السعودية',
     whyText:
-      'بخبرة متخصصة في البرمجيات المخصصة، وتطوير تطبيقات الجوال، وأنظمة ERP، والبنية التحتية لتقنية المعلومات، يقدم فريقنا خدمات تقنية متكاملة تمكّن الأعمال في مختلف أنحاء السعودية. نحن نجمع بين الخبرة والابتكار والثقة لمساعدة عملائنا على النجاح، من الشركات الناشئة إلى المؤسسات الكبرى داخل المملكة.',
+      'بخبرة واسعة في الصيانة البحرية، الطلاءات الوقائية، حماية التآكل، والخدمات الصناعية، يقدم فريقنا حلولاً متكاملة تحافظ على سلامة الأصول واستمرارية التشغيل. نجمع بين المعرفة المحلية والمهارة الفنية والاستجابة السريعة لدعم المشاريع في جميع أنحاء المملكة.',
     whyLabel: 'لماذا نحن',
     cards: [
       {
-        title: 'خبرة متخصصة في البرمجيات',
-        text: 'فريق من المحترفين المعتمدين يمتلك خبرة واسعة في تطوير البرمجيات المخصصة، وتطبيقات الجوال، ومنصات SaaS، وأنظمة ERP مع نتائج ملموسة للشركات في الرياض وجميع أنحاء السعودية.',
+        title: 'خبرة في الصيانة البحرية',
+        text: 'فريق عالي المهارة يقدم خدمات الطلاءات الوقائية، العزل، والصيانة للسفن والمنصات البحرية والمنشآت الصناعية في السعودية.',
       },
       {
-        title: 'أمان موثوق',
-        text: 'حلول أمنية متقدمة ودعم للبنية التحتية التقنية لحماية أعمالك بما يتوافق مع متطلبات حماية البيانات في السعودية، لتمنحك راحة وموثوقية أكبر.',
+        title: 'حماية من التآكل',
+        text: 'حلول متقدمة لحماية الأصول من التآكل مصممة لتمديد عمر المعدات وتحسين السلامة التشغيلية في البيئات البحرية القاسية.',
       },
       {
-        title: 'تغطية واسعة داخل المملكة',
-        text: 'خدمات برمجية وتقنية متكاملة لقطاعات ومناطق متعددة في السعودية، من الرياض إلى مختلف أنحاء المملكة، لخدمة الشركات الكبرى والمتوسطة والجهات الحكومية.',
+        title: 'تغطية شاملة في المملكة',
+        text: 'خدمات مقاولات متكاملة في جميع أنحاء المملكة، نخدم عملاء في جدة والدمام والرياض والمواقع الساحلية والداخلية الرئيسية.',
       },
     ],
   },
@@ -125,7 +125,7 @@ export async function About({ locale }: About) {
 
           {/* Main team photo placeholder */}
           <div className="relative w-[440px] h-[380px] rounded-2xl overflow-hidden shadow-2xl border border-white/60 bg-[#dde3ef]">
-            <Image src="/about.png" alt={isRtl ? 'فريق براندرايز' : 'Brandraize Team'} fill className="object-cover" />
+            <Image src="/about.png" alt={isRtl ? 'فريق TMS' : 'TMS Team'} fill className="object-cover" />
           </div>
 
           {/* Clients badge — bottom left */}
@@ -167,15 +167,15 @@ export async function About({ locale }: About) {
           {/* Headline */}
           <h2 className="text-[2rem] sm:text-[2.4rem] font-extrabold text-[#0d1f3c] leading-tight">
             {isRtl
-              ? 'براندرايز — الرائد في حلول التقنية بالسعودية.'
-              : "Saudi Arabia's Leader In\n Brandraize IT Solutions."}
+              ? 'TMS — الرائد في المقاولات البحرية بالسعودية.'
+              : "Saudi Arabia's Leader In Marine Contracting."}
           </h2>
 
           {/* Body */}
           <p className="text-[#4a5568] text-[15px] leading-relaxed max-w-xl">
             {isRtl
-              ? 'منذ تأسيسها، تميّزت براندرايز في تطوير البرمجيات، التسويق الرقمي، تحليل البيانات، وإدارة المشاريع.'
-              : 'Since inception, Brandraize has excelled in software, digital marketing, data analysis, and project management.'}
+              ? 'منذ تأسيسها، تميّزت TMS في تقديم خدمات المقاولات البحرية، الطلاءات الوقائية، حماية التآكل، وصيانة المعدات.'
+              : 'Since inception, TMS has excelled in marine contracting, protective coatings, corrosion protection, and equipment maintenance.'}
           </p>
 
           {/* Services */}
@@ -188,12 +188,12 @@ export async function About({ locale }: About) {
               </div>
               <div>
                 <h3 className="text-[#0d1f3c] font-bold text-[15px]">
-                  {isRtl ? 'تطوير البرمجيات والتصميم' : 'Software Development And Design'}
+                  {isRtl ? 'الصيانة البحرية والطلاءات' : 'Marine Maintenance & Coatings'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
                   {isRtl
-                    ? 'تطبيقات الجوال، المواقع الإلكترونية، التجارة الإلكترونية، الاستضافة، والدعم الفني.'
-                    : 'Mobile apps, websites, e-commerce, hosting, and support.'}
+                    ? 'خدمات الصيانة البحرية، الطلاءات الوقائية، والحماية للأصول البحرية والصناعية.'
+                    : 'Marine maintenance, protective coatings, and asset protection services.'}
                 </p>
               </div>
             </div>
@@ -208,12 +208,12 @@ export async function About({ locale }: About) {
               </div>
               <div>
                 <h3 className="text-[#0d1f3c] font-bold text-[15px]">
-                  {isRtl ? 'التسويق الرقمي' : 'Digital Marketing'}
+                  {isRtl ? 'حماية التآكل والعزل' : 'Corrosion Protection & Insulation'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
                   {isRtl
-                    ? 'التسويق الرقمي وتصميم الهوية البصرية للعلامة التجارية.'
-                    : 'Digital marketing and brand identity design.'}
+                    ? 'أنظمة حماية التآكل والعزل الحراري للحفاظ على سلامة ومتانة الأصول البحرية والصناعية.'
+                    : 'Corrosion protection and thermal insulation systems designed to preserve marine and industrial assets.'}
                 </p>
               </div>
             </div>

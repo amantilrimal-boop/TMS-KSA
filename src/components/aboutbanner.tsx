@@ -17,14 +17,14 @@ export default function AboutBanner({ locale }: AboutBannerProps) {
   const isArabic = resolvedLang === "ar";
 
   const arabicContent = {
-    title: "تمكين الابتكار، دفع النجاح في المملكة العربية السعودية",
-    description: "براندرايز هي شركة رائدة في تطوير البرمجيات في المملكة العربية السعودية. نقدم برمجيات مخصصة، تطوير تطبيقات الجوال، أنظمة تخطيط موارد المؤسسات، منصات SaaS، حلول الذكاء الاصطناعي، ودعم البنية التحتية لتقنية المعلومات — نساعد الشركات في جميع أنحاء المملكة على تحويل الأفكار إلى تميز تشغيلي وريادة في السوق.",
+    title: "شركة التقنية البحرية للمقاولات",
+    description: "شركة التقنية البحرية للمقاولات تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية. تقدم خدمات شاملة في مجال الصيانة البحرية، الحماية من التآكل، العزل، والتشطيبات الداخلية والخارجية للسفن والمنشآت البحرية.",
     badge: "من نحن",
   };
 
   const englishContent = {
-    title: "Empowering Innovation, Driving Success in Saudi Arabia",
-    description: "Brandraize is a leading software development company in Saudi Arabia. We deliver custom software, mobile app development, ERP systems, SaaS platforms, AI solutions, and IT infrastructure support — helping businesses across KSA transform ideas into operational excellence and market leadership.",
+    title: "Technical Marine Contracting Co",
+    description: "Technical Marine Contracting Co is one of the leading marine contracting companies in Saudi Arabia. We provide comprehensive services in ship and facility maintenance, protective coatings, corrosion protection, thermal insulation, and industrial finishing.",
     badge: "About Us",
   };
 

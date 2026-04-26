@@ -48,7 +48,7 @@ export default async function About({ locale }: About) {
 
           {/* Main team photo placeholder */}
           <div className="relative w-[440px] h-[380px] rounded-2xl overflow-hidden shadow-2xl border border-white/60 bg-[#dde3ef]">
-            <Image src="/about2.png" alt={isRtl ? 'فريق براندرايز' : 'Brandraize Team'} fill className="object-cover" />
+            <Image src="/about2.png" alt={isRtl ? 'فريق TMS' : 'TMS Team'} fill className="object-cover" />
           </div>
 
           {/* Clients badge — bottom left */}
@@ -102,46 +102,46 @@ export default async function About({ locale }: About) {
           </p>
 
           {/* Services */}
-       <div className="flex flex-col gap-5 mt-2">
+          <div className="flex flex-col gap-5 mt-2">
 
-  {/* Home Maintenance */}
-  <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
-    <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
-      {services[0].icon}
-    </div>
-    <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
-      <h3 className="text-[#0d1f3c] font-bold text-[15px]">
-        {isRtl ? 'الصيانة المنزلية المتكاملة' : 'Complete Home Maintenance'}
-      </h3>
-      <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
-        {isRtl
-          ? 'التشطيبات، الديكورات، صيانة التكييف، السباكة، والأعمال الكهربائية.'
-          : 'Finishing, decorations, air conditioning maintenance, plumbing, and electrical work.'}
-      </p>
-    </div>
-  </div>
+            {/* Marine Maintenance */}
+            <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
+              <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
+                {services[0].icon}
+              </div>
+              <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
+                <h3 className="text-[#0d1f3c] font-bold text-[15px]">
+                  {isRtl ? 'الصيانة البحرية المتكاملة' : 'Marine Maintenance'}
+                </h3>
+                <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
+                  {isRtl
+                    ? 'خدمات صيانة بحرية شاملة تشمل الطلاءات الوقائية، العزل، والتشغيل الآمن للسفن والمنشآت البحرية.'
+                    : 'Comprehensive marine maintenance services including protective coatings, insulation, and safe vessel operations.'}
+                </p>
+              </div>
+            </div>
 
-  {/* Divider */}
-  <div className="h-px bg-[#e2e8f0]" />
+            {/* Divider */}
+            <div className="h-px bg-[#e2e8f0]" />
 
-  {/* Cleaning & Protection */}
-  <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
-    <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
-      {services[1].icon}
-    </div>
-    <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
-      <h3 className="text-[#0d1f3c] font-bold text-[15px]">
-        {isRtl ? 'التنظيف والحماية' : 'Cleaning & Protection'}
-      </h3>
-      <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
-        {isRtl
-          ? 'مكافحة الحشرات، تنظيف خزانات المياه، والعزل لضمان بيئة صحية وآمنة.'
-          : 'Pest control, water tank cleaning, and insulation for a healthier and safer environment.'}
-      </p>
-    </div>
-  </div>
+            {/* Corrosion Protection */}
+            <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
+              <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
+                {services[1].icon}
+              </div>
+              <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
+                <h3 className="text-[#0d1f3c] font-bold text-[15px]">
+                  {isRtl ? 'الحماية من التآكل والعزل' : 'Corrosion Protection'}
+                </h3>
+                <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
+                  {isRtl
+                    ? 'حلول حماية التآكل والعزل الحراري المصممة للحفاظ على سلامة الأصول البحرية والصناعية.'
+                    : 'Corrosion protection and thermal insulation solutions designed to preserve marine and industrial assets.'}
+                </p>
+              </div>
+            </div>
 
-</div>
+          </div>
 
           {/* CTA */}
           <div className={`mt-2 ${isRtl ? 'self-end' : 'self-start'}`}>

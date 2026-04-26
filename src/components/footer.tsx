@@ -194,23 +194,16 @@ export default function Footer({ lang }: FooterProps) {
         <div className="flex justify-center gap-5 my-[30px] mb-[25px]">
           {/* X (Twitter) */}
           <a
-            href="https://x.com/brandraize/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
             aria-label="X"
           >
             <FaTwitter size={18} />
           </a>
 
-          {/* Instagram */}
-    {/*  */}
-
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/company/brandraize/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-black-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
             aria-label="LinkedIn"
           >
@@ -219,9 +212,7 @@ export default function Footer({ lang }: FooterProps) {
 
           {/* Snapchat */}
           <a
-            href="https://www.snapchat.com/@brandraize"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
             aria-label="Snapchat"
           >
@@ -230,9 +221,7 @@ export default function Footer({ lang }: FooterProps) {
 
           {/* TikTok */}
           <a
-            href="https://www.tiktok.com/@brandraize"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
             aria-label="TikTok"
           >
@@ -241,9 +230,7 @@ export default function Footer({ lang }: FooterProps) {
 
           {/* Facebook */}
           <a
-            href="https://www.facebook.com/brandraize2/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
             aria-label="Facebook"
           >

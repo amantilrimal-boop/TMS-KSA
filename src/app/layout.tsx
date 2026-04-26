@@ -12,8 +12,11 @@ const tajawal = Tajawal({
 });
 
 export const metadata = {
-  title: 'Brandraize',
-  description: 'Global website with i18n support',
+  title: 'Technical Marine Contracting Co',
+  description: 'Saudi-based marine contracting company offering protective coatings, corrosion protection, thermal insulation, and equipment maintenance.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default async function RootLayout({
