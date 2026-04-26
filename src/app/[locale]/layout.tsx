@@ -50,6 +50,12 @@ export default async function LocaleLayout({
       <Footer lang={locale as 'en' | 'ar'} />
       <WhatsAppButton
         phoneNumber="966540915000"
+        locale={locale as 'en' | 'ar'}
+        message={
+          locale === 'ar'
+            ? 'مرحبًا! أحتاج إلى المزيد من المعلومات عن خدماتكم.'
+            : 'Hello! I need more information about your services.'
+        }
         labelText={locale === 'ar' ? 'هل تحتاج إلى مساعدة؟' : 'Need help?'}
       />
     </NextIntlClientProvider>

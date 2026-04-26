@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 type WhatsAppButtonProps = {
   phoneNumber: string;          // e.g., "966512345678" (Saudi Arabia) or "1234567890"
+  locale?: 'en' | 'ar';
   message?: string;             // Pre‑filled message (auto chat)
   position?: 'bottom-right' | 'bottom-left' | 'top-right' | 'top-left' | 'middle-right' | 'middle-left';
   offset?: string;              // e.g., "20px"
@@ -33,13 +34,14 @@ const positionClasses = {
 
 export default function WhatsAppButton({
   phoneNumber,
-  message = 'Hello! I need more information about your services.',
+  locale = 'en',
+  message,
   position = 'bottom-right',
   offset = '1.5rem',
   size = 'md',
-  labelText = 'هل تحتاج إلى مساعدة؟',
+  labelText,
   showTooltip = true,
-  tooltipText = 'Chat with us on WhatsApp',
+  tooltipText,
   backgroundColor = '#075f69',
   iconColor = '#ffffff',
   className = '',
@@ -56,6 +58,18 @@ export default function WhatsAppButton({
     checkMobile();
   }, []);
 
+  const defaultMessage =
+    locale === 'ar'
+      ? 'مرحبًا! أحتاج إلى المزيد من المعلومات عن خدماتكم.'
+      : 'Hello! I need more information about your services.';
+
+  const defaultLabelText = locale === 'ar' ? 'هل تحتاج إلى مساعدة؟' : 'Need help?';
+  const defaultTooltipText = locale === 'ar' ? 'الدردشة معنا على واتساب' : 'Chat with us on WhatsApp';
+
+  const effectiveMessage = message ?? defaultMessage;
+  const effectiveLabelText = labelText ?? defaultLabelText;
+  const effectiveTooltipText = tooltipText ?? defaultTooltipText;
+
   const formatPhoneNumber = (num: string): string => {
     // Remove any non‑digit characters
     let cleaned = num.replace(/\D/g, '');
@@ -67,7 +81,7 @@ export default function WhatsAppButton({
 
   const getWhatsAppUrl = (): string => {
     const formattedNumber = formatPhoneNumber(phoneNumber);
-    const encodedMessage = encodeURIComponent(message);
+    const encodedMessage = encodeURIComponent(effectiveMessage);
     
     if (isMobile) {
       // Mobile: use whatsapp:// (opens app directly)
@@ -128,20 +142,20 @@ export default function WhatsAppButton({
         onClick={handleClick}
         className="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white rounded-full shadow-2xl transition-shadow duration-200 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400"
         style={{ backgroundColor }}
-        aria-label="Chat on WhatsApp"
+        aria-label={effectiveTooltipText}
       >
         <span className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm">
           <WhatsAppIcon size={iconSize} />
         </span>
 
         <span className="text-[0.72rem] leading-tight text-white font-semibold tracking-tight">
-          {labelText}
+          {effectiveLabelText}
         </span>
       </button>
 
       {showTooltip && (
         <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-gray-800 text-white text-xs py-1 px-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-          {tooltipText}
+          {effectiveTooltipText}
           <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 border-4 border-transparent border-t-gray-800"></div>
         </div>
       )}
