@@ -65,8 +65,8 @@ const faqs = {
 const contacts = {
   en: [
     {
-      href: "tel:+966566363638",
-      label: "966566363638",
+      href: "tel:+966540915000",
+      label: "966540915000",
       sub: "Call TMS to discuss your project or arrange a site survey.",
       icon: (
         <svg
@@ -126,8 +126,8 @@ const contacts = {
   ],
   ar: [
     {
-          href: "tel:+966566363638",
-      label: "966566363638",
+          href: "tel:+966540915000",
+      label: "966540915000",
       sub: "اتصل بشركة TMS لمناقشة مشروعك أو لترتيب زيارة موقع.",
       icon: (
         <svg

@@ -246,7 +246,7 @@ export default function Navbar({ lang }: { lang: Lang }) {
           {/* Right Section */}
           <div className="hidden lg:flex items-center gap-8 z-[10000]">
             <Link
-              href={`https://wa.me/+966566363638`}
+              href={`https://wa.me/+966540915000`}
               className="flex items-center gap-3 bg-[#f2a413] text-white px-7 py-4 rounded-full text-[16px] font-semibold hover:scale-105 transition"
             >
               <CalendarDays className="w-5 h-5" />
