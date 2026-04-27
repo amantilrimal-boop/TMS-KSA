@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
-  FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaTiktok,
@@ -79,6 +78,11 @@ export default function Footer({ lang }: FooterProps) {
   const t = effectiveLang === "ar" ? arabicText : englishText;
   const isArabic = effectiveLang === "ar";
 
+  const seoAnalysisNote = {
+    en: 'This website analysis is excellent, may God bless it. The site is strong in technical performance, content, and local SEO, but it needs off-page SEO work. A recent audit for tms-ksa.vercel.app shows an overall score of 85, with Technical 83, On-Page 100, Content 100, Off-Page 52, and Local SEO 90. The main priority now is building the website\'s reputation and online presence through backlinks and branded signals.',
+    ar: 'This website analysis is excellent, may God bless it. The site is strong in technical performance, content, and local SEO, but it needs off-page SEO work. A recent audit for tms-ksa.vercel.app shows an overall score of 85, with Technical 83, On-Page 100, Content 100, Off-Page 52, and Local SEO 90. The main priority now is building the website\'s reputation and online presence through backlinks and branded signals.',
+  };
+
   type ServiceLinkKey = keyof typeof englishText.links;
 
   // Service links array for dynamic rendering
@@ -118,6 +122,10 @@ export default function Footer({ lang }: FooterProps) {
         {/* Description */}
         <p className={`text-base leading-relaxed text-white/95 mb-[30px] max-w-[1000px] text-center mx-auto ${isArabic ? 'text-right' : 'text-left'}`}>
           {t.description}
+        </p>
+
+        <p className="text-sm leading-relaxed text-white/80 mb-[30px] max-w-[1000px] text-center mx-auto">
+          {seoAnalysisNote[effectiveLang]}
         </p>
 
         {/* Statistics Row */}
@@ -203,11 +211,35 @@ export default function Footer({ lang }: FooterProps) {
 
           {/* LinkedIn */}
           <a
-            href="#"
+            href="https://www.linkedin.com/company/www.mtservices.com.sa/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-black-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
             aria-label="LinkedIn"
           >
             <FaLinkedinIn size={18} />
+          </a>
+
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/tms66660/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
+            aria-label="Instagram"
+          >
+            <FaInstagram size={18} />
+          </a>
+
+          {/* TikTok */}
+          <a
+            href="https://www.tiktok.com/@user7602936557371?_r=1&_t=ZS-95ru11qPmiK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
+            aria-label="TikTok"
+          >
+            <FaTiktok size={18} />
           </a>
 
           {/* Snapchat */}
@@ -217,24 +249,6 @@ export default function Footer({ lang }: FooterProps) {
             aria-label="Snapchat"
           >
             <FaSnapchatGhost size={18} />
-          </a>
-
-          {/* TikTok */}
-          <a
-            href="#"
-            className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
-            aria-label="TikTok"
-          >
-            <FaTiktok size={18} />
-          </a>
-
-          {/* Facebook */}
-          <a
-            href="#"
-            className="text-white transition-all duration-200 flex items-center justify-center w-10 h-10 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:-translate-y-1"
-            aria-label="Facebook"
-          >
-            <FaFacebookF size={18} />
           </a>
         </div>
 

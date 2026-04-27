@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, CalendarDays, ChevronRight } from "lucide-react";
 
@@ -147,8 +148,8 @@ export default function Navbar({ lang }: { lang: Lang }) {
 
   const flagSrc =
     lang === "en"
-      ? "https://thehealthyhome.me/img/1dafa907-4aea-4380-b353-599957cb36f9/saudi-arabia-flag-icon-24.png"
-      : "https://thehealthyhome.me/img/be667bd6-9fa1-42b2-ab71-f05fa95fee81/ae.png";
+      ? "/flags/sa.png"
+      : "/flags/ae.png";
 
   return (
     <header
@@ -160,10 +161,13 @@ export default function Navbar({ lang }: { lang: Lang }) {
 
           {/* Logo */}
           <Link href={`/${lang}`} className="flex-shrink-0 z-[10000]">
-            <img
+            <Image
               src="/logo.png"
               alt="Logo"
+              width={160}
+              height={58}
               className="h-[58px] w-auto object-contain"
+              priority
             />
           </Link>
 
@@ -258,9 +262,11 @@ export default function Navbar({ lang }: { lang: Lang }) {
               className="flex items-center gap-3 text-[18px] font-medium text-[#2f3744]"
             >
               <div className="w-10 h-10 rounded-full overflow-hidden border border-gray-300">
-                <img
+                <Image
                   src={flagSrc}
                   alt="Language"
+                  width={40}
+                  height={40}
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -6,8 +6,6 @@ import Categorie from '@/components/categorie';
 import Testimonials from '@/components/Testimonials';
 
 
-export const dynamic = 'force-dynamic';
-
 type HomePageProps = {
   params: Promise<{ locale: string }>;
 };
