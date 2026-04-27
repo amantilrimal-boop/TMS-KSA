@@ -49,11 +49,11 @@ const buildPage = (
       heroCtaPrimary: 'Book Now',
       heroCtaSecondary: 'Contact Us',
       details:
-        'Our expert teams deliver elegant home service experiences for cleaning, AC care, pest control, and specialized maintenance. We combine premium equipment, transparent pricing, and local expertise.',
+        'Our expert teams deliver elegant home service experiences for AC maintenance, equipment care, pest control, and specialized maintenance. We combine premium equipment, expert care, and local expertise.',
       benefits: [
         'Fast scheduling and reliable arrival windows.',
-        'Professional cleaning, disinfection, and equipment care.',
-        'Clear pricing with premium service guarantees.',
+        'Professional maintenance, inspection, and equipment care.',
+        'Quality service with premium guarantees.',
       ],
       whyTitle: 'Why choose our premium service?',
       whyPoints: [
@@ -74,11 +74,11 @@ const buildPage = (
       heroCtaPrimary: 'احجز الآن',
       heroCtaSecondary: 'اتصل بنا',
       details:
-        'يقدم فريقنا المحترف تجربة خدمة منزلية راقية للتنظيف، والعناية بالمكيفات، ومكافحة الحشرات، والصيانة المتخصصة. نجمع بين معدات مميزة وأسعار واضحة وخبرة محلية.',
+        'يقدم فريقنا المحترف تجربة خدمة منزلية راقية لصيانة المكيفات، والعناية بالمعدات، ومكافحة الحشرات، والصيانة المتخصصة. نجمع بين معدات مميزة ورعاية خبيرة وخبرة محلية.',
       benefits: [
         'جدولة سريعة ونوافذ وصول موثوقة.',
-        'تنظيف احترافي وتعقيم وعناية بالمعدات.',
-        'أسعار واضحة مع ضمانات خدمة مميزة.',
+        'صيانة احترافية وفحص وعناية بالمعدات.',
+        'خدمة عالية الجودة مع ضمانات متميزة.',
       ],
       whyTitle: 'لماذا تختار خدمتنا المميزة؟',
       whyPoints: [

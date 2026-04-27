@@ -6,7 +6,6 @@ import HeroSection from '@/components/ui/HeroSection';
 import FeatureSection from '@/components/ui/FeatureSection';
 import FaqSection from '@/components/ui/FaqSection';
 import CtaBanner from '@/components/ui/CtaBanner';
-import PricingCard from '@/components/ui/PricingCard';
 import TestimonialSection from '@/components/ui/TestimonialSection';
 
 type PageTemplateProps = {
@@ -102,42 +101,6 @@ export default function PageTemplate({ locale, page }: PageTemplateProps) {
       </section>
 
       <FeatureSection locale={locale} title={copy.faqTitle} benefits={copy.benefits} />
-
-      <section className="px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">{locale === 'ar' ? 'خطط الخدمة' : 'Service Plans'}</h2>
-          <div className="mt-10 grid gap-6 xl:grid-cols-3">
-            <PricingCard
-              plan={locale === 'ar' ? 'أساسي' : 'Starter'}
-              price="SAR 199"
-              perks={[
-                locale === 'ar' ? 'تقييم شامل' : 'Full inspection',
-                locale === 'ar' ? 'تنظيف أساسي' : 'Standard cleaning',
-                locale === 'ar' ? 'متابعة الخدمة' : 'Service follow-up',
-              ]}
-            />
-            <PricingCard
-              plan={locale === 'ar' ? 'متقدم' : 'Advanced'}
-              price="SAR 349"
-              perks={[
-                locale === 'ar' ? 'تنظيف عميق' : 'Deep cleaning',
-                locale === 'ar' ? 'تطهير شامل' : 'Full sanitization',
-                locale === 'ar' ? 'جدولة مرنة' : 'Flexible scheduling',
-              ]}
-              featured
-            />
-            <PricingCard
-              plan={locale === 'ar' ? 'متميز' : 'Premium'}
-              price="SAR 499"
-              perks={[
-                locale === 'ar' ? 'استخدام معدات متقدمة' : 'Advanced equipment',
-                locale === 'ar' ? 'ضمان جودة' : 'Quality assurance',
-                locale === 'ar' ? 'تقارير مفصلة' : 'Detailed reporting',
-              ]}
-            />
-          </div>
-        </div>
-      </section>
 
       <TestimonialSection locale={locale} testimonials={testimonials} />
 
