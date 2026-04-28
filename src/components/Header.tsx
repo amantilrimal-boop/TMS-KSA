@@ -141,6 +141,7 @@ export default function Navbar({ lang }: { lang: Lang }) {
     //   ],
     // },
     { href: "/shop", label: lang === "ar" ? "المتجر" : "Shop" },
+    { href: "/seo-audit", label: lang === "ar" ? "تحليل SEO" : "SEO Audit" },
     { href: "/contact", label: lang === "ar" ? "اتصل بنا" : "Contact Us" },
   ];
 

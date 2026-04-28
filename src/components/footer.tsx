@@ -80,7 +80,7 @@ export default function Footer({ lang }: FooterProps) {
 
   const seoAnalysisNote = {
     en: 'This website analysis is excellent, may God bless it. The site is strong in technical performance, content, and local SEO, but it needs off-page SEO work. A recent audit for tms-ksa.vercel.app shows an overall score of 85, with Technical 83, On-Page 100, Content 100, Off-Page 52, and Local SEO 90. The main priority now is building the website\'s reputation and online presence through backlinks and branded signals.',
-    ar: 'This website analysis is excellent, may God bless it. The site is strong in technical performance, content, and local SEO, but it needs off-page SEO work. A recent audit for tms-ksa.vercel.app shows an overall score of 85, with Technical 83, On-Page 100, Content 100, Off-Page 52, and Local SEO 90. The main priority now is building the website\'s reputation and online presence through backlinks and branded signals.',
+    ar: 'هذا التحليل ممتاز، بارك الله فيك. الموقع قوي من ناحية الأداء التقني والمحتوى والسيو المحلي، لكنه يحتاج إلى تحسين السيو الخارجي، وخاصة بناء روابط عربية موثوقة وإشارات علامة تجارية باللغة العربية داخل المملكة. أولويته الآن هي تقوية سمعة الموقع على الويب عبر روابط خلفية نوعية واستشهادات عربية محلية.',
   };
 
   type ServiceLinkKey = keyof typeof englishText.links;
