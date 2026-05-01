@@ -10,16 +10,11 @@ export default async function Hero({ locale }: HeroProps) {
   return (
     <section className="relative w-full min-h-[640px] flex items-center justify-center overflow-hidden font-sans">
 
-      {/* Background Video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      >
-        <source src="/background-video.mp4" type="video/mp4" />
-      </video>
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 w-full h-full bg-cover bg-center z-0"
+        style={{ backgroundImage: "url('/bg.png')" }}
+      />
 
       {/* Dark overlay so text remains readable */}
       <div className="absolute inset-0 bg-black/40 z-10" />

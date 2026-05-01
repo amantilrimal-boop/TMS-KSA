@@ -4,6 +4,8 @@ import TechSlider from '@/components/TechSlider';
 import Services from '@/components/services';
 import Categorie from '@/components/categorie';
 import Testimonials from '@/components/Testimonials';
+import Experience from '@/components/Experience';
+import MainCategory from '@/components/main-category';
 
 
 type HomePageProps = {
@@ -19,7 +21,11 @@ export default async function HomePage({ params }: HomePageProps) {
       <Categorie locale={locale === 'ar' ? 'ar' : 'en'} />
       <About locale={locale === 'ar' ? 'ar' : 'en'} />
       <Services locale={locale === 'ar' ? 'ar' : 'en'} />
+            <Experience locale={locale === 'ar' ? 'ar' : 'en'} />
+      <MainCategory locale={locale === 'ar' ? 'ar' : 'en'} />
+
       <TechSlider locale={locale === 'ar' ? 'ar' : 'en'} />
+
       <Testimonials locale={locale === 'ar' ? 'ar' : 'en'} />
 
     </main>
