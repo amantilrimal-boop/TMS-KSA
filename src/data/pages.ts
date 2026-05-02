@@ -52,7 +52,6 @@ const buildPage = (
         'Our expert teams deliver elegant home service experiences for AC maintenance, equipment care, pest control, and specialized maintenance. We combine premium equipment, expert care, and local expertise.',
       benefits: [
         'Fast scheduling and reliable arrival windows.',
-        'Professional maintenance, inspection, and equipment care.',
         'Quality service with premium guarantees.',
       ],
       whyTitle: 'Why choose our premium service?',
@@ -77,7 +76,7 @@ const buildPage = (
         'يقدم فريقنا المحترف تجربة خدمة منزلية راقية لصيانة المكيفات، والعناية بالمعدات، ومكافحة الحشرات، والصيانة المتخصصة. نجمع بين معدات مميزة ورعاية خبيرة وخبرة محلية.',
       benefits: [
         'جدولة سريعة ونوافذ وصول موثوقة.',
-        'صيانة احترافية وفحص وعناية بالمعدات.',
+     
         'خدمة عالية الجودة مع ضمانات متميزة.',
       ],
       whyTitle: 'لماذا تختار خدمتنا المميزة؟',
@@ -97,7 +96,7 @@ const buildPage = (
 
 const waterTankCleaningPage = buildPage(
   'water-tank-cleaning',
-  '/services/ser/water-tank.jpg',
+  '/services/ser/water-tank.webp',
   'Water Tank Cleaning',
   'تنظيف خزانات المياه',
   'Water tank cleaning and sanitization for safe household water.',
@@ -151,7 +150,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'pest-control-contracts',
-    '/services/ser/protective-medical.jpg',
+    '/services/ser/hashrat.jpg',
     'Pest Control Contracts',
     'عقود مكافحة الحشرات',
     'Targeted pest control contracts for a safe and healthy home.',
@@ -177,7 +176,7 @@ export const pageEntries: PageDataItem[] = [
     'ac-cleaning',
     '/services/ser/spray-bottle2.jpg',
     'AC Cleaning',
-    'تنظيف المكيفات',
+    'تنظيف وصيانة المكيفات',
     'Professional AC cleaning for improved airflow and efficiency.',
     'تنظيف مكيفات احترافي لتحسين تدفق الهواء والكفاءة.',
   ),
@@ -255,11 +254,11 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'carpet-cleaning',
-    '/services/ser/furniture.jpg',
-    'Carpet Cleaning',
-    'تنظيف السجاد',
-    'Deep carpet cleaning with safe solutions for fresh floors.',
-    'تنظيف سجاد عميق بحلول آمنة لأرضيات منتعشة.',
+    '/services/ser/acc.jpeg',
+    ' Ducted air conditioner maintenance',
+    ' صيانة المكيفات الدكت',
+    'Ducted air conditioner maintenance',
+    'صيانة المكيفات الدكت',
   ),
   buildPage(
     'curtains-cleaning',
@@ -295,7 +294,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'water-pipeline',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water & Pipeline Services',
     'خدمات المياه والأنابيب',
     'Pipeline and water system services for safe flow and healthy plumbing.',
@@ -304,7 +303,7 @@ export const pageEntries: PageDataItem[] = [
   waterTankCleaningPage,
   buildPage(
     'pipeline-disinfection',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Pipeline Disinfection',
     'تطهير الأنابيب',
     'Professional pipeline disinfection to remove bacteria and contaminants.',
@@ -312,7 +311,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'water-filters',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water Filters & Purifiers',
     'فلاتر ومنقيات مياه',
     'Premium water filters for cleaner drinking and household water.',
@@ -320,7 +319,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'whole-house-filtration',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Whole House Filtration',
     'نظام ترشيح المياه للمنزل بالكامل',
     'Whole-home filtration for every faucet and water outlet.',
@@ -328,7 +327,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'blu-shower-filters',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'blu® Shower Filters',
     'فلاتر استحمام blu',
     'Shower filter installation for softer, healthier water.',
@@ -344,9 +343,9 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'move-in-out-unfurnished',
-    '/services/ser/deep.jpg',
+    '/services/ser/deep.jpeg',
     'Move In / Move Out Cleaning',
-    'تنظيف الانتقال (غير مفروش)',
+    'تنظيف المنازل (غير مفروش)',
     'Move in/out cleaning for empty homes and rental turnovers.',
     'تنظيف الانتقال للمنازل الفارغة وتبديل الإيجارات.',
   ),
@@ -400,7 +399,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'water-quality-testing',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water Quality Testing',
     'اختبار جودة المياه',
     'Water testing for safe drinking and household water systems.',
@@ -472,7 +471,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'plumbing',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Plumbing',
     'السباكة',
     'Professional plumbing services for repair and installation.',
@@ -488,7 +487,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'pest-control',
-    '/services/ser/protective-medical.jpg',
+    '/services/ser/hashrat.jpg',
     'Pest Control',
     'مكافحة الحشرات',
     'Comprehensive pest control for a clean and protected home.',
@@ -496,7 +495,7 @@ export const pageEntries: PageDataItem[] = [
   ),
   buildPage(
     'water-tank-insulation',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water Tank Insulation',
     'تنظيف وعزل خزانات المياه',
     'Tank cleaning and insulation for better hygiene and efficiency.',

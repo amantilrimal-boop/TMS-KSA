@@ -106,10 +106,10 @@ export default async function About({ locale }: About) {
 
             {/* Marine Maintenance */}
             <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
-              <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
+              {/* <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
                 {services[0].icon}
-              </div>
-              <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
+              </div> */}
+              {/* <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
                 <h3 className="text-[#0d1f3c] font-bold text-[15px]">
                   {isRtl ? 'الصيانة البحرية المتكاملة' : 'Marine Maintenance'}
                 </h3>
@@ -118,14 +118,14 @@ export default async function About({ locale }: About) {
                     ? 'خدمات صيانة بحرية شاملة تشمل الطلاءات الوقائية، العزل، والتشغيل الآمن للسفن والمنشآت البحرية.'
                     : 'Comprehensive marine maintenance services including protective coatings, insulation, and safe vessel operations.'}
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* Divider */}
             <div className="h-px bg-[#e2e8f0]" />
 
             {/* Corrosion Protection */}
-            <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
+            {/* <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
               <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
                 {services[1].icon}
               </div>
@@ -139,7 +139,7 @@ export default async function About({ locale }: About) {
                     : 'Corrosion protection and thermal insulation solutions designed to preserve marine and industrial assets.'}
                 </p>
               </div>
-            </div>
+            </div> */}
 
           </div>
 

@@ -22,7 +22,7 @@ export default async function HomePage({ params }: HomePageProps) {
       <About locale={locale === 'ar' ? 'ar' : 'en'} />
       <Services locale={locale === 'ar' ? 'ar' : 'en'} />
             <Experience locale={locale === 'ar' ? 'ar' : 'en'} />
-      <MainCategory locale={locale === 'ar' ? 'ar' : 'en'} />
+      {/* <MainCategory locale={locale === 'ar' ? 'ar' : 'en'} /> */}
 
       <TechSlider locale={locale === 'ar' ? 'ar' : 'en'} />
 

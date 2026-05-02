@@ -13,34 +13,35 @@ type CategoryItem = {
 const categoryItems: CategoryItem[] = [
   {
     href: "/ac-cleaning",
-    title: "AC Cleaning",
-    titleAr: "تنظيف المكيف",
+    title: "AC Cleaning & Maintenance",
+    titleAr: " تنظيف وصيانة المكيفات",
     image: "/services/ac-cleaning-service.webp",
   },
   {
     href: "/carpet-cleaning",
-    title: "Carpet Cleaning",
-    titleAr: "تنظيف السجاد",
-    image: "/services/carpet-cleaning-service.webp",
+    title: "Ducted air conditioner maintenance",
+    titleAr: " صيانة المكيفات الدكت",
+    image: "/services/ac-cleaning-service.webp",
   },
-  {
-    href: "/mattress-cleaning",
-    title: "Mattress Cleaning",
-    titleAr: "تنظيف المراتب",
-    image: "/services/mattress-cleaning-service.webp",
-  },
-  {
-    href: "/furniture-cleaning",
-    title: "Furniture Cleaning",
-    titleAr: "تنظيف الأثاث",
-    image: "/services/sofa-cleaning-service.webp",
-  },
-  {
-    href: "/home-deep-cleaning",
-    title: "Home Deep Cleaning",
-    titleAr: "تنظيف المنزل العميق",
-    image: "/services/deep-cleaning-service.webp",
-  },
+   
+  // {
+  //   href: "/mattress-cleaning",
+  //   title: "Mattress Cleaning",
+  //   titleAr: "تنظيف المراتب",
+  //   image: "/services/mattress-cleaning-service.webp",
+  // },
+  // {
+  //   href: "/furniture-cleaning",
+  //   title: "Furniture Cleaning",
+  //   titleAr: "تنظيف الأثاث",
+  //   image: "/services/sofa-cleaning-service.webp",
+  // },
+  // {
+  //   href: "/home-deep-cleaning",
+  //   title: "Home Deep Cleaning",
+  //   titleAr: "تنظيف المنزل العميق",
+  //   image: "/services/deep-cleaning-service.webp",
+  // },
   {
     href: "/pest-control",
     title: "Pest Control",
@@ -53,18 +54,18 @@ const categoryItems: CategoryItem[] = [
     titleAr: "تنظيف خزانات المياه",
     image: "/services/water-tank-cleaning-service.webp",
   },
-  {
-    href: "/packages-contracts",
-    title: "Contract & Packages",
-    titleAr: "العقود والباقات",
-    image: "/services/contract-packages.webp",
-  },
-  {
-    href: "/service",
-    title: "More Services",
-    titleAr: "المزيد من الخدمات",
-    image: "/services/other-service.webp",
-  },
+  // {
+  //   href: "/packages-contracts",
+  //   title: "Contract & Packages",
+  //   titleAr: "العقود والباقات",
+  //   image: "/services/contract-packages.webp",
+  // },
+  // {
+  //   href: "/service",
+  //   title: "More Services",
+  //   titleAr: "المزيد من الخدمات",
+  //   image: "/services/other-service.webp",
+  // },
 ];
 
 export default function Categorie({ locale }: { locale: Locale }) {

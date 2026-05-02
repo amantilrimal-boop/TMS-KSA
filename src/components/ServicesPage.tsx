@@ -456,7 +456,7 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             </div>
           </div>
 
-          <div className="rounded-[2rem] border border-white/10 bg-white/7 p-6 shadow-[0_30px_100px_rgba(0,0,0,0.3)] backdrop-blur-2xl sm:p-8">
+          {/* <div className="rounded-[2rem] border border-white/10 bg-white/7 p-6 shadow-[0_30px_100px_rgba(0,0,0,0.3)] backdrop-blur-2xl sm:p-8">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="text-sm uppercase tracking-[0.24em] text-cyan-200/80">{copy.heroPanelTitle}</p>
@@ -477,11 +477,11 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
-      <section id="all-services" className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      {/* <section id="all-services" className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="max-w-3xl">
           <p className="text-sm uppercase tracking-[0.24em] text-cyan-200/80">{copy.sectionIntro}</p>
           <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">{copy.sectionTitle}</h2>
@@ -513,9 +513,9 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             );
           })}
         </div>
-      </section>
+      </section> */}
 
-      <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      {/* <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr]">
           <div className="rounded-[2rem] border border-[#d7b03c]/20 bg-[linear-gradient(180deg,rgba(215,176,60,0.15),rgba(255,255,255,0.04))] p-8">
             <p className="text-sm uppercase tracking-[0.24em] text-[#ecd57f]">{copy.spotlightEyebrow}</p>
@@ -551,9 +551,9 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      {/* <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
           <div>
             <p className="text-sm uppercase tracking-[0.24em] text-cyan-200/80">{copy.whyTitle}</p>
@@ -573,9 +573,9 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      {/* <section className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="rounded-[2rem] border border-white/10 bg-white/6 p-8 backdrop-blur-xl sm:p-10">
           <div className="max-w-3xl">
             <h2 className="text-3xl font-semibold text-white sm:text-4xl">{copy.techTitle}</h2>
@@ -593,9 +593,9 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="relative mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      {/* <section className="relative mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="text-center">
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">{copy.faqTitle}</h2>
           <p className="mt-4 text-base leading-8 text-slate-300">{copy.faqDescription}</p>
@@ -617,9 +617,9 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             </details>
           ))}
         </div>
-      </section>
+      </section> */}
 
-      <section className="relative mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
+      {/* <section className="relative mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
         <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-[linear-gradient(135deg,rgba(6,182,212,0.16),rgba(215,176,60,0.18))] p-8 text-white sm:p-10">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-2xl">
@@ -643,7 +643,7 @@ export default function ServicesPage({ locale }: { locale: Locale }) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

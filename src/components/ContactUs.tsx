@@ -620,52 +620,10 @@ export default function ContactUs({ locale = "en" }: ContactUsProps) {
         dir={isRtl ? "rtl" : "ltr"}
       >
         {/* Left: FAQ intro */}
-        <div
-          className={`flex flex-col ${isRtl ? "items-end text-right" : "items-start text-left"}`}
-        >
-          <div className="flex gap-1 mb-5">
-            {[
-              "bg-emerald-500",
-              "bg-teal-400",
-              "bg-cyan-400",
-              "bg-emerald-300",
-            ].map((c, i) => (
-              <div
-                key={i}
-                className={`h-1.5 rounded-full ${c}`}
-                style={{ width: `${20 + i * 10}px` }}
-              />
-            ))}
-          </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-            {isRtl
-              ? "إجابات على أسئلتك الشائعة"
-              : "Answers to Your Top Questions"}
-          </h2>
-          <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
-            {isRtl
-              ? "من خطوات الإعداد إلى تفاصيل الميزات، تغطي أسئلتنا الشائعة كل ما تحتاج معرفته."
-              : "From setup steps to feature details, our FAQs cover everything you need to know."}
-          </p>
-
-          {/* Decorative box */}
-          <div className="hidden lg:flex w-full max-w-xs bg-gradient-to-br from-emerald-950 to-teal-900 rounded-3xl p-6 text-white gap-3 items-center shadow-xl">
-            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center font-black text-sm shadow-md flex-shrink-0">
-              BR
-            </div>
-            <div>
-              <p className="font-bold text-sm">TMS</p>
-              <p className="text-emerald-300 text-xs mt-0.5">
-                {isRtl
-                  ? "TMS — شريكك في الحلول البحرية والصناعية"
-                  : "TMS — your partner for marine and industrial solutions"}
-              </p>
-            </div>
-          </div>
-        </div>
+      
 
         {/* Right: accordion */}
-        <FaqAccordion items={faqItems} />
+        {/* <FaqAccordion items={faqItems} /> */}
       </section>
     </main>
   );

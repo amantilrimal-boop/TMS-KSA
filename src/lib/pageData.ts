@@ -159,7 +159,7 @@ const pageEntries = [
   ),
   buildPage(
     'pest-control-contracts',
-    '/services/ser/protective-medical.jpg',
+    '/services/ser/hashrat.jpg',
     'Pest Control Contracts',
     'عقود مكافحة الحشرات',
     'Comprehensive pest control contracts for homes and apartments that protect your family all year long.',
@@ -184,8 +184,8 @@ const pageEntries = [
   buildPage(
     'ac-cleaning',
     '/services/ser/spray-bottle2.jpg',
-    'AC Cleaning',
-    'تنظيف المكيفات',
+    'AC Cleaning & Maintenance',
+    'تنظيف وصيانة المكيفات',
     'Professional AC cleaning to improve cooling performance, airflow, and indoor air quality.',
     'تنظيف احترافي للمكيفات لتحسين أداء التبريد وتدفق الهواء وجودة الهواء الداخلي.',
   ),
@@ -263,11 +263,11 @@ const pageEntries = [
   ),
   buildPage(
     'carpet-cleaning',
-    '/services/ser/furniture.jpg',
-    'Carpet Cleaning',
-    'تنظيف السجاد',
-    'Comprehensive carpet cleaning with steam and eco-safe solutions for refreshed floors.',
-    'تنظيف شامل للسجاد بالبخار والحلول الآمنة بيئيًا للأرضيات المتجددة.',
+    '/services/ser/acc.jpg',
+    ' Ducted air conditioner maintenance',
+    ' صيانة المكيفات الدكت',
+    'Ducted air conditioner maintenance',
+    ' صيانة المكيفات الدكت',
   ),
   buildPage(
     'curtains-cleaning',
@@ -303,7 +303,7 @@ const pageEntries = [
   ),
   buildPage(
     'water-pipeline',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water & Pipeline Services',
     'خدمات المياه والأنابيب',
     'Pipeline and water system services for clean flow, safe water, and reliable plumbing.',
@@ -311,7 +311,7 @@ const pageEntries = [
   ),
   buildPage(
     'water-tank-cleaning',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water Tank Cleaning',
     'تنظيف خزانات المياه',
     'Water tank cleaning and sanitization solutions that keep drinking and household water safe.',
@@ -319,7 +319,7 @@ const pageEntries = [
   ),
   buildPage(
     'pipeline-disinfection',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Pipeline Disinfection',
     'تطهير الأنابيب',
     'Complete pipeline disinfection services to remove bacteria and maintain safe flow.',
@@ -327,7 +327,7 @@ const pageEntries = [
   ),
   buildPage(
     'water-filters',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Premium Water Filters & Purifiers',
     'فلاتر ومنقيات مياه فاخرة',
     'Premium water filter solutions for cleaner, better-tasting water throughout your home.',
@@ -335,7 +335,7 @@ const pageEntries = [
   ),
   buildPage(
     'whole-house-filtration',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Whole House Water Filtration System',
     'نظام ترشيح المياه للمنزل بالكامل',
     'Whole-house filtration systems designed to protect every faucet and water outlet.',
@@ -343,7 +343,7 @@ const pageEntries = [
   ),
   buildPage(
     'blu-shower-filters',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'blu® Shower Filters',
     'فلاتر استحمام blu',
     'Shower filter installations for softer water and better skin and hair health.',
@@ -359,9 +359,9 @@ const pageEntries = [
   ),
   buildPage(
     'move-in-out-unfurnished',
-    '/services/ser/deep.jpg',
+    '/services/ser/deep.jpeg',
     'Move-In Move-Out Deep Cleaning (Unfurnished)',
-    'تنظيف الانتقال (غير مفروش)',
+    'تنظيف المنازل (غير مفروش)',
     'Move-in and move-out cleaning designed for empty homes and rental turnovers.',
     'تنظيف الانتقال للمنازل الفارغة وتبديل الإيجار بأعلى مستوى من النظافة.',
   ),
@@ -415,7 +415,7 @@ const pageEntries = [
   ),
   buildPage(
     'water-quality-testing',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water Quality Testing',
     'اختبار جودة المياه',
     'Water quality testing for safe drinking and household water systems.',
@@ -487,7 +487,7 @@ const pageEntries = [
   ),
   buildPage(
     'plumbing',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Plumbing',
     'السباكة',
     'Plumbing services for leak repair, pipe replacement, and water system care.',
@@ -511,7 +511,7 @@ const pageEntries = [
   ),
   buildPage(
     'water-tank-insulation',
-    '/services/ser/water-tank.jpg',
+    '/services/ser/water-tank.webp',
     'Water Tank Cleaning & Insulation',
     'تنظيف وعزل خزانات المياه',
     'Water tank cleaning and insulation solutions for healthier, more efficient storage.',

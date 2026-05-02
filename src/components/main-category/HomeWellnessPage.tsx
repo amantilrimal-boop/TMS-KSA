@@ -7,8 +7,8 @@ type Locale = "en" | "ar";
 const WHATSAPP_NUMBER = "966540915000";
 
 const services = [
-  { title: "AC Cleaning", titleAr: "تنظيف المكيف", href: "/ac-cleaning", image: "/services/ac-cleaning-service.webp" },
-  { title: "Carpet Cleaning", titleAr: "تنظيف السجاد", href: "/carpet-cleaning", image: "/services/carpet-cleaning-service.webp" },
+  { title: "AC ", titleAr: " تنظيف وصيانة المكيفات", href: "/ac-cleaning", image: "/services/ac-cleaning-service.webp" },
+  { title: " Ducted air conditioner maintenance ", titleAr: " صيانة المكيفات الدكت", href: "/carpet-cleaning", image: "/services/carpet-cleaning-service.webp" },
   { title: "Mattress Cleaning", titleAr: "تنظيف المراتب", href: "/mattress-cleaning", image: "/services/mattress-cleaning-service.webp", popular: true },
   { title: "Furniture Cleaning", titleAr: "تنظيف الأثاث", href: "/furniture-cleaning", image: "/services/sofa-cleaning-service.webp" },
   { title: "Home Deep Cleaning", titleAr: "تنظيف المنزل العميق", href: "/home-deep-cleaning", image: "/services/deep-cleaning-service.webp" },
