@@ -20,7 +20,7 @@ const testimonialsContent: Record<"en" | "ar", Testimonial[]> = {
       name: "Fahad Al-Harbi",
       gender: "male",
       quote:
-        "TMS delivered outstanding maintenance and coating services for our industrial site. Their professionalism and quality exceeded expectations.",
+        "كول نكس - COOL NEX delivered outstanding maintenance and coating services for our industrial site. Their professionalism and quality exceeded expectations.",
     },
     {
       name: "Sarah Al-Qahtani",
@@ -50,7 +50,7 @@ const testimonialsContent: Record<"en" | "ar", Testimonial[]> = {
       name: "Noura Al-Ghamdi",
       gender: "female",
       quote:
-        "Professional, skilled, and dedicated. TMS stands out as one of the best technical marine contractors in the region.",
+        "Professional, skilled, and dedicated. كول نكس - COOL NEX stands out as one of the best marine contractors in the region.",
     },
   ],
   ar: [
@@ -58,7 +58,7 @@ const testimonialsContent: Record<"en" | "ar", Testimonial[]> = {
       name: "فهد الحربي",
       gender: "male",
       quote:
-        "قدمت شركة TMS خدمات صيانة وطلاءات وقائية متميزة لموقعنا الصناعي. احترافية وجودة فاقت التوقعات.",
+        "قدمت شركة كول نكس - COOL NEX خدمات صيانة وطلاءات وقائية متميزة لموقعنا الصناعي. احترافية وجودة فاقت التوقعات.",
     },
     {
       name: "سارة القحطاني",
@@ -88,7 +88,7 @@ const testimonialsContent: Record<"en" | "ar", Testimonial[]> = {
       name: "نورة الغامدي",
       gender: "female",
       quote:
-        "فريق محترف وماهر وملتزم. شركة TMS من أفضل شركات المقاولات الفنية البحرية في المنطقة.",
+        "فريق محترف وماهر وملتزم. شركة كول نكس - COOL NEX من أفضل شركات المقاولات الفنية البحرية في المنطقة.",
     },
   ],
 };
@@ -130,7 +130,7 @@ export default function Testimonials({ locale }: TestimonialsProps) {
         {/* Header */}
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-5xl font-extrabold text-[#0d4d66]">
-            {isRtl ? "آراء عملاء TMS" : "TMS Customer Reviews"}
+            {isRtl ? "آراء عملاء كول نكس - COOL NEX" : "كول نكس - COOL NEX Customer Reviews"}
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">
             {isRtl

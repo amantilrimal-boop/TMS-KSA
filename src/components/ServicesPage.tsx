@@ -70,9 +70,9 @@ type Copy = {
 const content: Record<Locale, Copy> = {
   en: {
     eyebrow: "TM Service",
-    title: "Technical Marine Contracting Co",
+    title: "كول نكس - COOL NEX",
     description:
-      "TMS is one of the leading companies in the KSA market in the field of protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance.",
+      "كول نكس - COOL NEX is one of the leading companies in the KSA market in the field of protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance.",
     primaryCta: "Our Services",
     secondaryCta: "Contact Us",
     heroStats: [
@@ -80,7 +80,7 @@ const content: Record<Locale, Copy> = {
       { value: "Vision 2030", label: "Saudi-aligned Solutions" },
       { value: "Trusted", label: "Marine Contracting" },
     ],
-    heroPanelTitle: "TMS Service",
+    heroPanelTitle: "كول نكس - COOL NEX Service",
     heroPanelDescription:
       "Comprehensive industrial and marine contracting services focused on asset protection, maintenance, and operational continuity.",
     heroPanelPoints: [
@@ -91,7 +91,7 @@ const content: Record<Locale, Copy> = {
     sectionIntro: "Our Services",
     sectionTitle: "Discover Our Premium Marine & Industrial Services",
     sectionDescription:
-      "At TMS (Technical Marine Contracting), we are committed to delivering protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance across Saudi Arabia.",
+      "At كول نكس - COOL NEX, we are committed to delivering protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance across Saudi Arabia.",
     services: [
       {
         slug: "protective-coatings",
@@ -145,7 +145,7 @@ const content: Record<Locale, Copy> = {
     spotlightEyebrow: "Integrated Maintenance",
     spotlightTitle: "Complete Marine & Industrial Coverage",
     spotlightDescription:
-      "From protective coatings to equipment maintenance and support services, TMS delivers reliable solutions that protect assets and optimize performance.",
+      "From protective coatings to equipment maintenance and support services, كول نكس - COOL NEX delivers reliable solutions that protect assets and optimize performance.",
     spotlightBullets: [
       "Finishing, structural coatings, and surface protection services",
       "HVAC maintenance, plumbing, and electrical support",
@@ -178,9 +178,9 @@ const content: Record<Locale, Copy> = {
         icon: Wrench,
       },
     ],
-    whyTitle: "Why Choose TMS?",
+    whyTitle: "Why Choose كول نكس - COOL NEX?",
     whyDescription:
-      "TMS combines technical expertise, marine contracting experience, and Saudi-focused services to deliver projects with safety, quality, and reliability.",
+      "كول نكس - COOL NEX combines technical expertise, marine contracting experience, and Saudi-focused services to deliver projects with safety, quality, and reliability.",
     whyPoints: [
       "Specialized marine and industrial contracting capabilities",
       "Experience in protective coatings and corrosion control",
@@ -202,9 +202,9 @@ const content: Record<Locale, Copy> = {
     faqDescription: "Answers about our industrial and marine contracting services.",
     faqs: [
       {
-        question: "What industries does TMS serve?",
+        question: "What industries does كول نكس - COOL NEX serve?",
         answer:
-          "TMS serves marine, industrial, and commercial clients across Saudi Arabia, with expertise in protective coatings, blasting, insulation, and equipment maintenance.",
+          "كول نكس - COOL NEX serves marine, industrial, and commercial clients across Saudi Arabia, with expertise in protective coatings, blasting, insulation, and equipment maintenance.",
       },
       {
         question: "Do you support both onshore and offshore projects?",
@@ -212,12 +212,12 @@ const content: Record<Locale, Copy> = {
           "Yes. We provide certified teams and resources for safe and efficient work on both onshore and offshore sites.",
       },
       {
-        question: "How does TMS manage corrosion protection?",
+        question: "How does كول نكس - COOL NEX manage corrosion protection?",
         answer:
           "We deliver tailored corrosion protection systems including surface preparation, coatings, and monitoring strategies to extend asset life.",
       },
       {
-        question: "Can TMS handle preventive maintenance?",
+        question: "Can كول نكس - COOL NEX handle preventive maintenance?",
         answer:
           "Yes. Our preventive and corrective maintenance services are designed to reduce downtime and maintain equipment reliability.",
       },
@@ -234,10 +234,10 @@ const content: Record<Locale, Copy> = {
     ],
   },
   ar: {
-    eyebrow: "خدمات TMS",
-    title: "شركة المقاولات الفنية البحرية",
+    eyebrow: "خدمات كول نكس - COOL NEX",
+    title: "كول نكس - COOL NEX",
     description:
-      "تعد TMS من الشركات الرائدة في سوق المملكة في مجال الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات.",
+      "تعد كول نكس - COOL NEX من الشركات الرائدة في سوق المملكة في مجال الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات.",
     primaryCta: "خدماتنا",
     secondaryCta: "اتصل بنا",
     heroStats: [
@@ -245,7 +245,7 @@ const content: Record<Locale, Copy> = {
       { value: "رؤية 2030", label: "حلول متوافقة مع المملكة" },
       { value: "موثوق", label: "مقاولات بحرية" },
     ],
-    heroPanelTitle: "خدمة TMS",
+    heroPanelTitle: "خدمة كول نكس - COOL NEX",
     heroPanelDescription:
       "خدمات مقاولات صناعية وبحرية متكاملة تركز على حماية الأصول والصيانة واستمرارية التشغيل.",
     heroPanelPoints: [
@@ -256,7 +256,7 @@ const content: Record<Locale, Copy> = {
     sectionIntro: "خدماتنا",
     sectionTitle: "اكتشف خدماتنا البحرية والصناعية المتميزة",
     sectionDescription:
-      "في TMS للمقاولات الفنية البحرية، نلتزم بتقديم الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات في جميع أنحاء المملكة.",
+      "في كول نكس - COOL NEX للمقاولات الفنية البحرية، نلتزم بتقديم الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات في جميع أنحاء المملكة.",
     services: [
       {
         slug: "protective-coatings",
@@ -310,7 +310,7 @@ const content: Record<Locale, Copy> = {
     spotlightEyebrow: "الصيانة المتكاملة",
     spotlightTitle: "تغطية بحرية وصناعية كاملة",
     spotlightDescription:
-      "من الطلاء الواقي إلى صيانة المعدات وخدمات الدعم، توفر TMS حلولاً موثوقة لحماية الأصول وتحسين الأداء.",
+      "من الطلاء الواقي إلى صيانة المعدات وخدمات الدعم، توفر كول نكس - COOL NEX حلولاً موثوقة لحماية الأصول وتحسين الأداء.",
     spotlightBullets: [
       "التشطيب والطلاءات والهياكل",
       "صيانة التكييف والسباكة والكهرباء",
@@ -343,9 +343,9 @@ const content: Record<Locale, Copy> = {
         icon: Wrench,
       },
     ],
-    whyTitle: "لماذا تختار TMS؟",
+    whyTitle: "لماذا تختار كول نكس - COOL NEX؟",
     whyDescription:
-      "تجمع TMS بين الخبرة الفنية والمقاولات البحرية والتركيز على السوق السعودي لتقديم مشاريع آمنة وموثوقة وعالية الجودة.",
+      "تجمع كول نكس - COOL NEX بين الخبرة الفنية والمقاولات البحرية والتركيز على السوق السعودي لتقديم مشاريع آمنة وموثوقة وعالية الجودة.",
     whyPoints: [
       "قدرات متخصصة في المقاولات البحرية والصناعية",
       "خبرة في الطلاء الواقي والتحكم في التآكل",
@@ -367,9 +367,9 @@ const content: Record<Locale, Copy> = {
     faqDescription: "إجابات حول خدماتنا البحرية والصناعية.",
     faqs: [
       {
-        question: "ما الصناعات التي تخدمها TMS؟",
+        question: "ما الصناعات التي تخدمها كول نكس - COOL NEX؟",
         answer:
-          "تخدم TMS عملاء من القطاع البحري والصناعي والتجاري في السعودية بخبرات في الطلاء الواقي والسفع الرملي والعزل والصيانة.",
+          "تخدم كول نكس - COOL NEX عملاء من القطاع البحري والصناعي والتجاري في السعودية بخبرات في الطلاء الواقي والسفع الرملي والعزل والصيانة.",
       },
       {
         question: "هل تدعمون المشاريع البرية والبحرية؟",
@@ -377,12 +377,12 @@ const content: Record<Locale, Copy> = {
           "نعم. نقدم فرقاً معتمدة وموارد للعمل الآمن والفعال في المواقع البرية والبحرية.",
       },
       {
-        question: "كيف تدير TMS حماية التآكل؟",
+        question: "كيف تدير كول نكس - COOL NEX حماية التآكل؟",
         answer:
           "نقدم أنظمة حماية التآكل المخصصة بما في ذلك تحضير الأسطح والطلاءات واستراتيجيات المراقبة لإطالة عمر الأصول.",
       },
       {
-        question: "هل يمكن لـ TMS تقديم صيانة وقائية؟",
+        question: "هل يمكن لـ كول نكس - COOL NEX تقديم صيانة وقائية؟",
         answer:
           "نعم. خدماتنا الوقائية والتصحيحية تهدف إلى تقليل التوقفات والحفاظ على موثوقية المعدات.",
       },

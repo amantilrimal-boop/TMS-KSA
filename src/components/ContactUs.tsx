@@ -10,15 +10,15 @@ type ContactUsProps = {
 const faqs = {
   en: [
     {
-      q: "What services does TMS provide in Saudi Arabia?",
-      a: "TMS delivers protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance across the KSA market.",
+      q: "What services does كول نكس - COOL NEX provide in Saudi Arabia?",
+      a: "كول نكس - COOL NEX delivers protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance across the KSA market.",
     },
     {
-      q: "Can TMS handle both offshore and onshore projects?",
-      a: "Yes. TMS works on marine, industrial, and commercial projects in both offshore and onshore environments with certified teams and strict safety standards.",
+      q: "Can كول نكس - COOL NEX handle both offshore and onshore projects?",
+      a: "Yes. كول نكس - COOL NEX works on marine, industrial, and commercial projects in both offshore and onshore environments with certified teams and strict safety standards.",
     },
     {
-      q: "Does TMS offer corrosion protection and thermal insulation?",
+      q: "Does كول نكس - COOL NEX offer corrosion protection and thermal insulation?",
       a: "Absolutely. We provide corrosion-resistant coatings and thermal insulation solutions designed to extend asset life and improve operational safety.",
     },
     {
@@ -26,25 +26,25 @@ const faqs = {
       a: "Yes. Use the contact form or call us to arrange a site survey, project evaluation, or customised proposal for your maintenance and protection needs.",
     },
     {
-      q: "Does TMS support equipment maintenance and repair?",
+      q: "Does كول نكس - COOL NEX support equipment maintenance and repair?",
       a: "Yes, our maintenance teams specialise in equipment repair and preventive services to keep your systems running reliably.",
     },
     {
-      q: "How can I get in touch with TMS?",
+      q: "How can I get in touch with كول نكس - COOL NEX?",
       a: "Reach out via phone, email, or the contact form below. Our team is ready to discuss your marine and industrial contracting requirements.",
     },
   ],
   ar: [
     {
-      q: "ما الخدمات التي تقدمها TMS في المملكة العربية السعودية؟",
-      a: "توفر TMS خدمات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات في سوق المملكة.",
+      q: "ما الخدمات التي تقدمها كول نكس - COOL NEX في المملكة العربية السعودية؟",
+      a: "توفر كول نكس - COOL NEX خدمات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات في سوق المملكة.",
     },
     {
-      q: "هل تتعامل TMS مع المشاريع البحرية والبرية؟",
-      a: "نعم. تعمل TMS في المشاريع البحرية والصناعية والتجارية في البحر والبرّ بقيادة فرق معتمدة ومعايير سلامة صارمة.",
+      q: "هل تتعامل كول نكس - COOL NEX مع المشاريع البحرية والبرية؟",
+      a: "نعم. تعمل كول نكس - COOL NEX في المشاريع البحرية والصناعية والتجارية في البحر والبرّ بقيادة فرق معتمدة ومعايير سلامة صارمة.",
     },
     {
-      q: "هل تقدم TMS حماية من التآكل وعزلًا حراريًا؟",
+      q: "هل تقدم كول نكس - COOL NEX حماية من التآكل وعزلًا حراريًا؟",
       a: "بالتأكيد. نقدم حلول حماية من التآكل والعزل الحراري المصممة لإطالة عمر الأصول وتحسين السلامة التشغيلية.",
     },
     {
@@ -52,11 +52,11 @@ const faqs = {
       a: "نعم. استخدم نموذج الاتصال أو اتصل بنا لترتيب زيارة موقع وتقييم المشروع أو عرض مخصص لاحتياجاتك.",
     },
     {
-      q: "هل تقدم TMS صيانة وإصلاح المعدات؟",
+      q: "هل تقدم كول نكس - COOL NEX صيانة وإصلاح المعدات؟",
       a: "نعم، تتخصص فرق الصيانة لدينا في إصلاح المعدات والخدمات الوقائية للحفاظ على تشغيل أنظمتك بشكل موثوق.",
     },
     {
-      q: "كيف يمكنني التواصل مع TMS؟",
+      q: "كيف يمكنني التواصل مع كول نكس - COOL NEX؟",
       a: "تواصل معنا عبر الهاتف أو البريد الإلكتروني أو نموذج الاتصال أدناه. فريقنا جاهز لمناقشة احتياجات المقاولات الفنية البحرية والصناعية.",
     },
   ],
@@ -67,7 +67,7 @@ const contacts = {
     {
       href: "tel:+966540915000",
       label: "966540915000",
-      sub: "Call TMS to discuss your project or arrange a site survey.",
+      sub: "Call كول نكس - COOL NEX to discuss your project or arrange a site survey.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const contacts = {
     {
       href: "mailto:info@tms-ksa.com",
       label: "info@tms-ksa.com",
-      sub: "Email TMS for technical inquiries and project planning.",
+      sub: "Email كول نكس - COOL NEX for technical inquiries and project planning.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -106,7 +106,7 @@ const contacts = {
     {
       href: "https://maps.google.com",
       label: "Office Location",
-      sub: "Technical Marine Contracting Co., Jeddah, Mecca Region, Saudi Arabia",
+      sub: "كول نكس - COOL NEX., Jeddah, Mecca Region, Saudi Arabia",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -128,7 +128,7 @@ const contacts = {
     {
           href: "tel:+966540915000",
       label: "966540915000",
-      sub: "اتصل بشركة TMS لمناقشة مشروعك أو لترتيب زيارة موقع.",
+      sub: "اتصل بشركة كول نكس - COOL NEX لمناقشة مشروعك أو لترتيب زيارة موقع.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -147,7 +147,7 @@ const contacts = {
     {
       href: "mailto:info@tms-ksa.com",
       label: "info@tms-ksa.com",
-      sub: "راسل شركة TMS للاستفسارات الفنية وخطط المشاريع.",
+      sub: "راسل شركة كول نكس - COOL NEX للاستفسارات الفنية وخطط المشاريع.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -167,7 +167,7 @@ const contacts = {
     {
       href: "https://maps.google.com",
       label: "موقع المكتب",
-      sub: "شركة TMS للمقاولات الفنية البحرية، جدة، منطقة مكة المكرمة، المملكة العربية السعودية",
+      sub: "شركة كول نكس - COOL NEX للمقاولات الفنية البحرية، جدة، منطقة مكة المكرمة، المملكة العربية السعودية",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -370,17 +370,17 @@ export default function ContactUs({ locale = "en" }: ContactUsProps) {
         {/* Hero copy */}
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4 max-w-5xl mx-auto">
           <p className="text-emerald-400 font-semibold text-sm tracking-widest uppercase mb-4">
-            {isRtl ? "تواصل معنا" : "Contact TMS"}
+            {isRtl ? "تواصل معنا" : "Contact كول نكس - COOL NEX"}
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight mb-6">
             {isRtl
-              ? "تواصل مع TMS للمقاولات الفنية البحرية"
-              : "Reach Out to TMS Technical Marine Contracting"}
+              ? "تواصل مع كول نكس - COOL NEX"
+              : "Reach Out to كول نكس - COOL NEX"}
           </h1>
           <p className="text-emerald-100 text-lg max-w-xl leading-relaxed">
             {isRtl
-              ? "TMS هي إحدى الشركات الرائدة في سوق المملكة في مجالات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري وصيانة المعدات."
-              : "TMS is one of the leading companies in the KSA market for protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance."}
+              ? "كول نكس - COOL NEX هي إحدى الشركات الرائدة في سوق المملكة في مجالات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري وصيانة المعدات."
+              : "كول نكس - COOL NEX is one of the leading companies in the KSA market for protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance."}
           </p>
 
           {/* Scroll hint */}
@@ -485,10 +485,10 @@ export default function ContactUs({ locale = "en" }: ContactUsProps) {
               </div>
               <div className="mt-6 flex items-center gap-3 bg-white rounded-2xl p-3 shadow-sm border border-emerald-100">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white font-black text-sm">
-                  TMS
+                  كول نكس - COOL NEX
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-gray-900">TMS</p>
+                  <p className="text-xs font-bold text-gray-900">كول نكس - COOL NEX</p>
                   <p className="text-[10px] text-gray-400">
                     {isRtl
                       ? "شريكك الصناعي الموثوق"

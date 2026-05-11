@@ -25,8 +25,8 @@ export default function Footer({ lang }: FooterProps) {
   }
 
   const arabicText = {
-    companyName: "TMS",
-    companyNameFull: "شركة المقاولات الفنية البحرية",
+    companyName: "كول نكس - COOL NEX",
+    companyNameFull: "كول نكس - COOL NEX",
     description: "شركة رائدة في السعودية تقدم خدمات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات.",
     links: {
       home: "الرئيسية",
@@ -50,9 +50,9 @@ export default function Footer({ lang }: FooterProps) {
   };
 
   const englishText = {
-    companyName: "TMS",
-    companyNameFull: "Technical Marine Contracting Co",
-    description: "A leading marine contracting company in Saudi Arabia offering protective coatings, abrasive blasting, onshore and offshore works, corrosion protection, thermal insulation, and equipment maintenance.",
+    companyName: "كول نكس - COOL NEX",
+    companyNameFull: "كول نكس - COOL NEX",
+    description: "A leading contracting company in Saudi Arabia offering protective coatings, abrasive blasting, onshore and offshore works, corrosion protection, thermal insulation, and equipment maintenance.",
     links: {
       home: "Home",
       services: "Services",
@@ -109,8 +109,8 @@ export default function Footer({ lang }: FooterProps) {
         <div className="flex flex-col items-center justify-center text-center mb-[30px]">
           <Link href={`/${effectiveLang}`} className="inline-block mb-[15px]">
             <Image
-              src="/logo.png"
-              alt="TMS"
+              src="/logo.jpg"
+              alt="كول نكس - COOL NEX"
               width={220}
               height={80}
               priority
@@ -132,7 +132,7 @@ export default function Footer({ lang }: FooterProps) {
         <div className="flex justify-center items-center gap-[60px] my-5 flex-wrap max-sm:gap-[30px]">
           <div className="text-center">
             <div className="text-3xl font-bold text-white">420+</div>
-            <div className="text-sm text-white/80 mt-1">{isArabic ? "فريق TMS" : "TMS Team"}</div>
+            <div className="text-sm text-white/80 mt-1">{isArabic ? "فريق كول نكس - COOL NEX" : "كول نكس - COOL NEX Team"}</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-white">22350+</div>

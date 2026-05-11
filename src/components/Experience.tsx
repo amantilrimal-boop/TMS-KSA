@@ -7,7 +7,7 @@ const content: Record<Locale, {
   stats: { icon: string; title: string; description: string }[];
 }> = {
   en: {
-    heading: "Experience the Difference with The TMS Services",
+    heading: "Experience the Difference with كول نكس - COOL NEX",
     stats: [
       {
         icon: "⭐",
@@ -32,7 +32,7 @@ const content: Record<Locale, {
     ],
   },
   ar: {
-    heading: "اختبر الفرق مع The TMS Services",
+    heading: "اختبر الفرق مع كول نكس - COOL NEX",
     stats: [
       {
         icon: "⭐",

@@ -12,8 +12,36 @@ const tajawal = Tajawal({
 });
 
 export const metadata = {
-  title: 'Technical Marine Contracting Co',
-  description: 'Saudi-based marine contracting company offering protective coatings, corrosion protection, thermal insulation, and equipment maintenance.',
+  title: 'كول نكس - COOL NEX | Marine Contracting Saudi Arabia',
+  description:
+    'كول نكس - COOL NEX offers marine and industrial contracting services across Saudi Arabia, including protective coatings, corrosion protection, thermal insulation, abrasive blasting, and equipment maintenance for ships, offshore and industrial facilities.',
+  keywords: [
+    'كول نكس',
+    'COOL NEX',
+    'marine contracting',
+    'marine contracting Saudi Arabia',
+    'protective coatings',
+    'corrosion protection',
+    'thermal insulation',
+    'abrasive blasting',
+    'equipment maintenance',
+    'offshore contracting',
+    'industrial contracting',
+  ],
+  openGraph: {
+    title: 'كول نكس - COOL NEX | Marine Contracting Saudi Arabia',
+    description:
+      'كول نكس - COOL NEX offers marine and industrial contracting services across Saudi Arabia, including protective coatings, corrosion protection, thermal insulation, abrasive blasting, and equipment maintenance.',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'كول نكس - COOL NEX',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'كول نكس - COOL NEX | Marine Contracting Saudi Arabia',
+    description:
+      'Marine and industrial contracting in Saudi Arabia with protective coatings, corrosion protection, thermal insulation, abrasive blasting, and equipment maintenance.',
+  },
   icons: {
     icon: '/favicon.ico',
   },

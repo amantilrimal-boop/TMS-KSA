@@ -21,7 +21,7 @@ const content: Record<Locale, SeoCopy> = {
   en: {
     title: 'SEO Audit & Ranking Plan',
     description:
-      'SEO audit report and ranking plan for Technical Marine Contracting Co. Focused on off-page SEO, backlink strategy, and reputation growth.',
+      'SEO audit report and ranking plan for كول نكس - COOL NEX. Focused on off-page SEO, backlink strategy, and reputation growth.',
     heroTitle: 'SEO Audit & Ranking Plan',
     heroSubtitle:
       'A focused plan to improve off-page authority, backlinks, and search visibility for your website.',
@@ -71,7 +71,7 @@ const content: Record<Locale, SeoCopy> = {
   ar: {
     title: 'تقرير تدقيق SEO وخطة التصنيف',
     description:
-      'تقرير تدقيق SEO وخطة تحسين ترتيب موقع شركة المقاولات الفنية البحرية مع تركيز على السيو الخارجي وسلسلة الروابط.',
+      'تقرير تدقيق SEO وخطة تحسين ترتيب موقع كول نكس - COOL NEX مع تركيز على السيو الخارجي وسلسلة الروابط.',
     heroTitle: 'تقرير تدقيق SEO وخطة التصنيف',
     heroSubtitle:
       'خطة مركزة لتحسين سلطة الموقع الخارجية والروابط والظهور في محركات البحث.',

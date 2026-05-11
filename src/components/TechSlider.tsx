@@ -182,7 +182,7 @@ function PhoneMockup({ locale }: { locale: 'en' | 'ar' }) {
           </button>
           {/* Logo image */}
           <div className="w-8 h-8 rounded-full overflow-hidden">
-            <Image src="/logo.png" alt="TMS" width={38} height={38} className="object-cover" />
+            <Image src="/logo.png" alt="كول نكس - COOL NEX" width={38} height={38} className="object-cover" />
           </div>
           <button className="p-1.5 hover:bg-gray-100 rounded-xl transition-all">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">

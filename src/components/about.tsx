@@ -48,7 +48,7 @@ export default async function About({ locale }: About) {
 
           {/* Main team photo placeholder */}
           <div className="relative w-[440px] h-[380px] rounded-2xl overflow-hidden shadow-2xl border border-white/60 bg-[#dde3ef]">
-            <Image src="/about2.png" alt={isRtl ? 'فريق TMS' : 'TMS Team'} fill className="object-cover" />
+            <Image src="/about2.png" alt={isRtl ? 'فريق كول نكس - COOL NEX' : 'كول نكس - COOL NEX Team'} fill className="object-cover" />
           </div>
 
           {/* Clients badge — bottom left */}
@@ -90,8 +90,8 @@ export default async function About({ locale }: About) {
           {/* Headline */}
           <h2 className="text-[2rem] sm:text-[2.4rem] font-extrabold text-[#0d1f3c] leading-tight">
             {isRtl
-              ? 'شركة التقنية للمقاولات البحرية تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية.'
-              : "TMS is one of the leading companies in the KSA  \n    "}
+              ? 'كول نكس - COOL NEX تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية.'
+              : 'كول نكس - COOL NEX is one of the leading companies in the KSA market in protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance.'}
           </h2>
 
           {/* Body */}

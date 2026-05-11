@@ -17,14 +17,14 @@ export default function AboutBanner({ locale }: AboutBannerProps) {
   const isArabic = resolvedLang === "ar";
 
   const arabicContent = {
-    title: "شركة التقنية البحرية للمقاولات",
-    description: "شركة التقنية البحرية للمقاولات تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية. تقدم خدمات شاملة في مجال الصيانة البحرية، الحماية من التآكل، العزل، والتشطيبات الداخلية والخارجية للسفن والمنشآت البحرية.",
+    title: "كول نكس - COOL NEX",
+    description: "كول نكس - COOL NEX تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية. تقدم خدمات شاملة في مجال الصيانة البحرية، الحماية من التآكل، العزل، والتشطيبات الداخلية والخارجية للسفن والمنشآت البحرية.",
     badge: "من نحن",
   };
 
   const englishContent = {
-    title: "Technical Marine Contracting Co",
-    description: "Technical Marine Contracting Co is one of the leading marine contracting companies in Saudi Arabia. We provide comprehensive services in ship and facility maintenance, protective coatings, corrosion protection, thermal insulation, and industrial finishing.",
+    title: "كول نكس - COOL NEX",
+    description: "كول نكس - COOL NEX is one of the leading marine contracting companies in Saudi Arabia. We provide comprehensive services in ship and facility maintenance, protective coatings, corrosion protection, thermal insulation, and industrial finishing.",
     badge: "About Us",
   };
 

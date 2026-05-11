@@ -42,7 +42,7 @@ const content = {
     visionTitle: 'Our Vision',
     visionText:
       'To be the trusted marine contracting partner for ship owners and facility operators across the Kingdom. We aim to lead with technical excellence, operational reliability, and services that protect assets and extend asset life.',
-    whyTitle: 'Why Choose TMS — Marine Contracting in Saudi Arabia',
+    whyTitle: 'Why Choose كول نكس - COOL NEX — Marine Contracting in Saudi Arabia',
     whyText:
       'With deep expertise across marine maintenance, protective coatings, corrosion control, and industrial services, our team delivers turnkey solutions that keep assets safe and operational. We combine local knowledge, technical skill, and responsive service to support projects across the KSA.',
     whyLabel: 'why us',
@@ -71,7 +71,7 @@ const content = {
     visionTitle: 'رؤيتنا',
     visionText:
       'أن نكون الشريك الموثوق للأعمال البحرية والصناعية في المملكة، بقيادة تقنية متفوقة وتنفيذ يعتمد عليه وخدمات تحمي الأصول وتطيل عمرها.',
-    whyTitle: 'لماذا تختار TMS — المقاولات البحرية في السعودية',
+    whyTitle: 'لماذا تختار كول نكس - COOL NEX — المقاولات البحرية في السعودية',
     whyText:
       'بخبرة واسعة في الصيانة البحرية، الطلاءات الوقائية، حماية التآكل، والخدمات الصناعية، يقدم فريقنا حلولاً متكاملة تحافظ على سلامة الأصول واستمرارية التشغيل. نجمع بين المعرفة المحلية والمهارة الفنية والاستجابة السريعة لدعم المشاريع في جميع أنحاء المملكة.',
     whyLabel: 'لماذا نحن',
@@ -125,7 +125,7 @@ export async function About({ locale }: About) {
 
           {/* Main team photo placeholder */}
           <div className="relative w-[440px] h-[380px] rounded-2xl overflow-hidden shadow-2xl border border-white/60 bg-[#dde3ef]">
-            <Image src="/about.png" alt={isRtl ? 'فريق TMS' : 'TMS Team'} fill className="object-cover" />
+            <Image src="/about.png" alt={isRtl ? 'فريق كول نكس - COOL NEX' : 'كول نكس - COOL NEX Team'} fill className="object-cover" />
           </div>
 
           {/* Clients badge — bottom left */}
@@ -167,15 +167,15 @@ export async function About({ locale }: About) {
           {/* Headline */}
           <h2 className="text-[2rem] sm:text-[2.4rem] font-extrabold text-[#0d1f3c] leading-tight">
             {isRtl
-              ? 'TMS — الرائد في المقاولات البحرية بالسعودية.'
+              ? 'كول نكس - COOL NEX — الرائد في المقاولات البحرية بالسعودية.'
               : "Saudi Arabia's Leader In Marine Contracting."}
           </h2>
 
           {/* Body */}
           <p className="text-[#4a5568] text-[15px] leading-relaxed max-w-xl">
             {isRtl
-              ? 'منذ تأسيسها، تميّزت TMS في تقديم خدمات المقاولات البحرية، الطلاءات الوقائية، حماية التآكل، وصيانة المعدات.'
-              : 'Since inception, TMS has excelled in marine contracting, protective coatings, corrosion protection, and equipment maintenance.'}
+              ? 'منذ تأسيسها، تميّزت كول نكس - COOL NEX في تقديم خدمات المقاولات البحرية، الطلاءات الوقائية، حماية التآكل، وصيانة المعدات.'
+              : 'Since inception, كول نكس - COOL NEX has excelled in marine contracting, protective coatings, corrosion protection, and equipment maintenance.'}
           </p>
 
           {/* Services */}
