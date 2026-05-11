@@ -84,8 +84,8 @@ const contacts = {
       color: "from-emerald-400 to-teal-500",
     },
     {
-      href: "mailto:info@tms-ksa.com",
-      label: "info@tms-ksa.com",
+      href: "mailto:info@cool-nex.com",
+      label: "info@cool-nex.com",
       sub: "Email كول نكس - COOL NEX for technical inquiries and project planning.",
       icon: (
         <svg
@@ -145,8 +145,8 @@ const contacts = {
       color: "from-emerald-400 to-teal-500",
     },
     {
-      href: "mailto:info@tms-ksa.com",
-      label: "info@tms-ksa.com",
+      href: "mailto:info@cool-nex.com",
+      label: "info@cool-nex.com",
       sub: "راسل شركة كول نكس - COOL NEX للاستفسارات الفنية وخطط المشاريع.",
       icon: (
         <svg
