@@ -27,16 +27,16 @@ export default function Footer({ lang }: FooterProps) {
   const arabicText = {
     companyName: "كول نكس - COOL NEX",
     companyNameFull: "كول نكس - COOL NEX",
-    description: "شركة رائدة في السعودية تقدم خدمات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات.",
+    description: "شركة متخصصة في صيانة وتشغيل وتنظيف أنظمة التكييف، تقدم حلولًا احترافية للأفراد والمنشآت التجارية باستخدام أحدث التقنيات ومعايير الجودة الحديثة.",
     links: {
       home: "الرئيسية",
       services: "الخدمات",
-      webDevelopment: "الطلاءات الواقية",
-      appDevelopment: "السفع الرملي",
-      itSolutions: "الأعمال البحرية",
-      digitalMarketing: "حماية التآكل",
-      graphicDesign: "العزل الحراري",
-      mobileApps: "صيانة المعدات",
+      webDevelopment: "صيانة التكييف",
+      appDevelopment: "تنظيف الأنظمة",
+      itSolutions: "التشغيل والفحص",
+      digitalMarketing: "كفاءة الطاقة",
+      graphicDesign: "الصيانة الوقائية",
+      mobileApps: "الخدمات الطارئة",
       about: "من نحن",
       contact: "اتصل بنا",
       terms: "شروط الاستخدام",
@@ -52,16 +52,16 @@ export default function Footer({ lang }: FooterProps) {
   const englishText = {
     companyName: "كول نكس - COOL NEX",
     companyNameFull: "كول نكس - COOL NEX",
-    description: "A leading contracting company in Saudi Arabia offering protective coatings, abrasive blasting, onshore and offshore works, corrosion protection, thermal insulation, and equipment maintenance.",
+    description: "A specialized company in AC maintenance, operation, and cleaning services, providing professional solutions for individuals and commercial facilities using cutting-edge technology and modern quality standards.",
     links: {
       home: "Home",
       services: "Services",
-      webDevelopment: "Protective Coatings",
-      appDevelopment: "Abrasive Blasting",
-      itSolutions: "Offshore Works",
-      digitalMarketing: "Corrosion Protection",
-      graphicDesign: "Thermal Insulation",
-      mobileApps: "Equipment Maintenance",
+      webDevelopment: "AC Maintenance",
+      appDevelopment: "System Cleaning",
+      itSolutions: "Operation & Inspection",
+      digitalMarketing: "Energy Efficiency",
+      graphicDesign: "Preventive Maintenance",
+      mobileApps: "Emergency Services",
       about: "About Us",
       contact: "Contact Us",
       terms: "Terms of Use",
@@ -87,12 +87,12 @@ export default function Footer({ lang }: FooterProps) {
 
   // Service links array for dynamic rendering
   const serviceLinks: Array<{ key: ServiceLinkKey; path: string }> = [
-    { key: "webDevelopment", path: "protective-coatings" },
-    { key: "appDevelopment", path: "abrasive-blasting" },
-    { key: "itSolutions", path: "offshore-works" },
-    { key: "digitalMarketing", path: "corrosion-protection" },
-    { key: "graphicDesign", path: "thermal-insulation" },
-    { key: "mobileApps", path: "equipment-maintenance" },
+    { key: "webDevelopment", path: "ac-maintenance" },
+    { key: "appDevelopment", path: "system-cleaning" },
+    { key: "itSolutions", path: "operation-inspection" },
+    { key: "digitalMarketing", path: "energy-efficiency" },
+    { key: "graphicDesign", path: "preventive-maintenance" },
+    { key: "mobileApps", path: "emergency-services" },
   ];
 
   return (

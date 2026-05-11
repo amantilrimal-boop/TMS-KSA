@@ -38,26 +38,26 @@ const content = {
     visionLabel: 'our vision',
     missionTitle: 'Our Mission',
     missionText:
-      'To deliver integrated marine and industrial contracting services across Saudi Arabia, from protective coatings and corrosion protection to thermal insulation, abrasive blasting, and equipment maintenance. We focus on safety, quality, and reliable execution for ships and facilities.',
+      'We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance, reduce energy consumption, and achieve customer satisfaction with confidence and sustainability.',
     visionTitle: 'Our Vision',
     visionText:
-      'To be the trusted marine contracting partner for ship owners and facility operators across the Kingdom. We aim to lead with technical excellence, operational reliability, and services that protect assets and extend asset life.',
-    whyTitle: 'Why Choose كول نكس - COOL NEX — Marine Contracting in Saudi Arabia',
+      'To become a leading brand in smart AC solutions and maintenance in Saudi Arabia, through innovative and sustainable services that align with Vision 2030, and improve quality of life and energy efficiency.',
+    whyTitle: 'Why Choose CoolNex — AC Services in Saudi Arabia',
     whyText:
-      'With deep expertise across marine maintenance, protective coatings, corrosion control, and industrial services, our team delivers turnkey solutions that keep assets safe and operational. We combine local knowledge, technical skill, and responsive service to support projects across the KSA.',
+      'With expertise in AC maintenance, operation, and cleaning services, our team delivers professional solutions for both individuals and commercial facilities. We combine modern technology, professional standards, and responsive service to support all your cooling needs across the Kingdom.',
     whyLabel: 'why us',
     cards: [
       {
-        title: 'Marine Maintenance Expertise',
-        text: 'A highly skilled team delivering protective coating, insulation, and maintenance services for ships, offshore platforms, and industrial facilities across Saudi Arabia.',
+        title: 'Professional AC Expertise',
+        text: 'A highly skilled team delivering maintenance, operation, and cleaning services for all types of AC systems across Saudi Arabia.',
       },
       {
-        title: 'Corrosion Protection',
-        text: 'Advanced corrosion control systems and protective solutions designed to extend asset life and improve operational safety in harsh marine environments.',
+        title: 'Energy Efficiency Focus',
+        text: 'Advanced solutions designed to reduce energy consumption, improve system performance, and enhance operational safety in all environments.',
       },
       {
-        title: 'Kingdom-wide Coverage',
-        text: 'Comprehensive contracting services throughout the Kingdom, serving customers in Jeddah, Dammam, Riyadh, and major coastal and inland project sites.',
+        title: 'Kingdom-wide Service Coverage',
+        text: 'Comprehensive AC services throughout the Kingdom, serving customers in all major cities and providing emergency and preventive maintenance services.',
       },
     ],
   },
@@ -67,26 +67,26 @@ const content = {
     visionLabel: 'رؤيتنا',
     missionTitle: 'مهمتنا',
     missionText:
-      'تقديم خدمات مقاولات بحرية وصناعية متكاملة في السعودية، من الطلاءات الوقائية والحماية من التآكل إلى العزل الحراري والسفع الكاشط وصيانة المعدات. نركز على السلامة والجودة والتنفيذ الموثوق للسفن والمنشآت.',
+      'نلتزم بتقديم خدمات صيانة وتشغيل أنظمة التكييف بأعلى معايير الجودة والاحترافية، من خلال كوادر متخصصة وتقنيات حديثة وحلول فعالة تضمن الأداء الأمثل، وتقليل استهلاك الطاقة، وتحقيق رضا العملاء بثقة واستدامة.',
     visionTitle: 'رؤيتنا',
     visionText:
-      'أن نكون الشريك الموثوق للأعمال البحرية والصناعية في المملكة، بقيادة تقنية متفوقة وتنفيذ يعتمد عليه وخدمات تحمي الأصول وتطيل عمرها.',
-    whyTitle: 'لماذا تختار كول نكس - COOL NEX — المقاولات البحرية في السعودية',
+      'أن تصبح CoolNex علامة رائدة في حلول التكييف والصيانة الذكية في المملكة العربية السعودية، عبر تقديم خدمات مبتكرة ومستدامة تواكب تطلعات رؤية السعودية 2030 وترتقي بجودة الحياة وكفاءة الطاقة.',
+    whyTitle: 'لماذا تختار CoolNex — خدمات التكييف في السعودية',
     whyText:
-      'بخبرة واسعة في الصيانة البحرية، الطلاءات الوقائية، حماية التآكل، والخدمات الصناعية، يقدم فريقنا حلولاً متكاملة تحافظ على سلامة الأصول واستمرارية التشغيل. نجمع بين المعرفة المحلية والمهارة الفنية والاستجابة السريعة لدعم المشاريع في جميع أنحاء المملكة.',
+      'بخبرة في صيانة وتشغيل وتنظيف أنظمة التكييف، يقدم فريقنا حلولاً احترافية للأفراد والمنشآت التجارية. نجمع بين أحدث التقنيات والمعايير الاحترافية والاستجابة السريعة لدعم جميع احتياجاتك التكييفية في أنحاء المملكة.',
     whyLabel: 'لماذا نحن',
     cards: [
       {
-        title: 'خبرة في الصيانة البحرية',
-        text: 'فريق عالي المهارة يقدم خدمات الطلاءات الوقائية، العزل، والصيانة للسفن والمنصات البحرية والمنشآت الصناعية في السعودية.',
+        title: 'خبرة احترافية في التكييف',
+        text: 'فريق عالي المهارة يقدم خدمات الصيانة والتشغيل والتنظيف لجميع أنواع أنظمة التكييف في السعودية.',
       },
       {
-        title: 'حماية من التآكل',
-        text: 'حلول متقدمة لحماية الأصول من التآكل مصممة لتمديد عمر المعدات وتحسين السلامة التشغيلية في البيئات البحرية القاسية.',
+        title: 'التركيز على كفاءة الطاقة',
+        text: 'حلول متقدمة مصممة لتقليل استهلاك الطاقة وتحسين أداء النظام والحفاظ على الأداء الأمثل.',
       },
       {
-        title: 'تغطية شاملة في المملكة',
-        text: 'خدمات مقاولات متكاملة في جميع أنحاء المملكة، نخدم عملاء في جدة والدمام والرياض والمواقع الساحلية والداخلية الرئيسية.',
+        title: 'تغطية خدمات شاملة في المملكة',
+        text: 'خدمات تكييف متكاملة في جميع أنحاء المملكة، تشمل الصيانة الوقائية والطارئة والفحص الدوري.',
       },
     ],
   },

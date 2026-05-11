@@ -90,15 +90,15 @@ export default async function About({ locale }: About) {
           {/* Headline */}
           <h2 className="text-[2rem] sm:text-[2.4rem] font-extrabold text-[#0d1f3c] leading-tight">
             {isRtl
-              ? 'كول نكس - COOL NEX تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية.'
-              : 'كول نكس - COOL NEX is one of the leading companies in the KSA market in protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance.'}
+              ? 'كول نكس - COOL NEX شركة متخصصة في صيانة وتشغيل وتنظيف أنظمة التكييف في المملكة العربية السعودية.'
+              : 'CoolNex is a specialized company in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards.'}
           </h2>
 
           {/* Body */}
           <p className="text-[#4a5568] text-[15px] leading-relaxed max-w-xl">
             {isRtl
-              ? 'تقدم خدمات شاملة في مجال الصيانة البحرية، الحماية من التآكل، العزل، والتشطيبات الداخلية والخارجية للسفن والمنشآت البحرية.'
-              : 'protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance.'}
+              ? 'نلتزم بتقديم خدمات صيانة وتشغيل أنظمة التكييف بأعلى معايير الجودة والاحترافية، من خلال كوادر متخصصة وتقنيات حديثة وحلول فعالة تضمن الأداء الأمثل.'
+              : 'We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance.'}
           </p>
 
           {/* Services */}

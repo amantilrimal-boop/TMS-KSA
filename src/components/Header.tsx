@@ -150,7 +150,7 @@ export default function Navbar({ lang }: { lang: Lang }) {
   const flagSrc =
     lang === "en"
       ? "/flags/sa.png"
-      : "/flags/ae.png";
+      : "/flags/uk.png";
 
   return (
     <header
