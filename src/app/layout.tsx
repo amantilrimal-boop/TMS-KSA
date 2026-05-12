@@ -14,7 +14,7 @@ const tajawal = Tajawal({
 export const metadata = {
   title: 'CoolNex | AC Maintenance & Services in Saudi Arabia',
   description:
-    'CoolNex is a specialized company in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards. We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance.',
+    'CoolNex is a specialized company in AC maintenance, operation, and cleaning services, delivering professional solutions for individuals and commercial facilities with the latest technologies and modern quality standards. We aim to provide a comfortable environment and high operational efficiency with a contemporary approach that matches the future of services in the Kingdom.',
   keywords: [
     'كول نكس',
     'CoolNex',
@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     title: 'CoolNex | Professional AC Maintenance Services in Saudi Arabia',
     description:
-      'CoolNex specializes in AC maintenance, operation, and cleaning services across Saudi Arabia with cutting-edge technology and professional quality standards.',
+      'CoolNex is a specialized company in AC maintenance, operation, and cleaning services, delivering professional solutions for individuals and commercial facilities with the latest technologies and modern quality standards. We aim to provide a comfortable environment and high operational efficiency with a contemporary approach that matches the future of services in the Kingdom.',
     type: 'website',
     locale: 'en_US',
     siteName: 'CoolNex',

@@ -6,12 +6,11 @@ type ContactUsProps = {
   locale?: "en" | "ar";
 };
 
-// ─── FAQ data ────────────────────────────────────────────────────────────────
 const faqs = {
   en: [
     {
       q: "What services does CoolNex provide in Saudi Arabia?",
-      a: "CoolNex specializes in AC maintenance, operation, and cleaning services across Saudi Arabia. We provide professional solutions for residential and commercial facilities including system maintenance, preventive care, emergency repairs, and energy efficiency optimization.",
+      a: "CoolNex is a specialized company in AC maintenance, operation, and cleaning services across Saudi Arabia, delivering professional solutions for residential and commercial facilities using the latest technologies and modern quality standards. We provide maintenance, preventive care, emergency repairs, and energy efficiency optimization with customer satisfaction and reliability at the core.",
     },
     {
       q: "Can CoolNex handle maintenance for all types of AC systems?",
@@ -379,7 +378,7 @@ export default function ContactUs({ locale = "en" }: ContactUsProps) {
           </h1>
           <p className="text-emerald-100 text-lg max-w-xl leading-relaxed">
             {isRtl
-              ? "كول نكس - COOL NEX هي إحدى الشركات الرائدة في سوق المملكة في مجالات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري وصيانة المعدات."
+              ? "CoolNex شركة متخصصة في صيانة وتشغيل وتنظيف أنظمة التكييف، تقدم حلولًا احترافية للأفراد والمنشآت التجارية باستخدام أحدث التقنيات ومعايير الجودة الحديثة، بهدف توفير بيئة مريحة وكفاءة تشغيل عالية بأسلوب عصري يواكب مستقبل الخدمات في المملكة."
               : "A specialized company in AC maintenance, operation, and cleaning services, providing professional solutions for individuals and commercial facilities using cutting-edge technology and modern quality standards."}
           </p>
 

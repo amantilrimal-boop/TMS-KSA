@@ -18,13 +18,13 @@ export default function AboutBanner({ locale }: AboutBannerProps) {
 
   const arabicContent = {
     title: "كول نكس - COOL NEX",
-    description: "CoolNex شركة متخصصة في خدمات صيانة وتشغيل وتنظيف أنظمة التكييف في المملكة العربية السعودية، توفر حلولاً احترافية باستخدام أحدث التقنيات ومعايير الجودة الحديثة.",
+    description: "CoolNex شركة متخصصة في صيانة وتشغيل وتنظيف أنظمة التكييف، تقدم حلولًا احترافية للأفراد والمنشآت التجارية باستخدام أحدث التقنيات ومعايير الجودة الحديثة، بهدف توفير بيئة مريحة وكفاءة تشغيل عالية بأسلوب عصري يواكب مستقبل الخدمات في المملكة.",
     badge: "من نحن",
   };
 
   const englishContent = {
     title: "كول نكس - COOL NEX",
-    description: "CoolNex is a specialized company in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards.",
+    description: "CoolNex is a specialized company in AC maintenance, operation, and cleaning services, delivering professional solutions for individuals and commercial facilities with the latest technologies and modern quality standards. We aim to provide a comfortable environment and high operational efficiency with a contemporary approach that matches the future of services in the Kingdom.",
     badge: "About Us",
   };
 

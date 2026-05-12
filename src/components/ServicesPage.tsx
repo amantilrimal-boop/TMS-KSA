@@ -72,7 +72,7 @@ const content: Record<Locale, Copy> = {
     eyebrow: "TM Service",
     title: "كول نكس - COOL NEX",
     description:
-      "CoolNex specializes in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards.",
+      "CoolNex is a specialized company in AC maintenance, operation, and cleaning services, delivering professional solutions for individuals and commercial facilities with the latest technologies and modern quality standards. We aim to provide a comfortable environment and high operational efficiency with a contemporary approach that matches the future of services in the Kingdom.",
     primaryCta: "Our Services",
     secondaryCta: "Contact Us",
     heroStats: [

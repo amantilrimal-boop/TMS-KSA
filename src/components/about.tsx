@@ -1,34 +1,10 @@
-﻿import { getTranslations } from 'next-intl/server';
-import Image from 'next/image';
+﻿import Image from 'next/image';
 
 type About = {
   locale: 'en' | 'ar';
 };
 
-const services = [
-  {
-    key: 'software',
-    icon: (
-      <svg viewBox="0 0 48 48" fill="none" className="w-7 h-7" stroke="white" strokeWidth="1.8">
-        <rect x="6" y="10" width="36" height="26" rx="3" />
-        <path d="M16 20l-5 4 5 4M32 20l5 4-5 4M22 30l4-12" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    ),
-  },
-  {
-    key: 'marketing',
-    icon: (
-      <svg viewBox="0 0 48 48" fill="none" className="w-7 h-7" stroke="white" strokeWidth="1.8">
-        <path d="M8 34l8-10 8 6 8-12 8 6" strokeLinecap="round" strokeLinejoin="round" />
-        <path d="M8 40h32M8 8v32" strokeLinecap="round" />
-        <circle cx="38" cy="14" r="4" fill="white" fillOpacity="0.3" />
-      </svg>
-    ),
-  },
-];
-
-export default async function About({ locale }: About) {
-  const t = await getTranslations({ locale });
+export default function About({ locale }: About) {
   const isRtl = locale === 'ar';
 
   return (
@@ -90,57 +66,42 @@ export default async function About({ locale }: About) {
           {/* Headline */}
           <h2 className="text-[2rem] sm:text-[2.4rem] font-extrabold text-[#0d1f3c] leading-tight">
             {isRtl
-              ? 'كول نكس - COOL NEX شركة متخصصة في صيانة وتشغيل وتنظيف أنظمة التكييف في المملكة العربية السعودية.'
-              : 'CoolNex is a specialized company in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards.'}
+              ? 'CoolNex شركة متخصصة في صيانة وتشغيل وتنظيف أنظمة التكييف، تقدم حلولًا احترافية للأفراد والمنشآت التجارية باستخدام أحدث التقنيات ومعايير الجودة الحديثة، بهدف توفير بيئة مريحة وكفاءة تشغيل عالية بأسلوب عصري يواكب مستقبل الخدمات في المملكة.'
+              : 'CoolNex is a specialized company in AC maintenance, operation, and cleaning services, delivering professional solutions for individuals and commercial facilities with the latest technologies and modern quality standards. We aim to provide a comfortable environment and high operational efficiency with a contemporary approach that matches the future of services in the Kingdom.'}
           </h2>
 
           {/* Body */}
           <p className="text-[#4a5568] text-base sm:text-lg leading-relaxed max-w-xl">
             {isRtl
-              ? 'نلتزم بتقديم خدمات صيانة وتشغيل أنظمة التكييف بأعلى معايير الجودة والاحترافية، من خلال كوادر متخصصة وتقنيات حديثة وحلول فعالة تضمن الأداء الأمثل.'
-              : 'We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance.'}
+              ? 'في CoolNex نلتزم بتقديم خدمات صيانة وتشغيل أنظمة التكييف بأعلى معايير الجودة والاحترافية، من خلال كوادر متخصصة وتقنيات حديثة وحلول فعالة تضمن الأداء الأمثل، وتقليل استهلاك الطاقة، وتحقيق رضا العملاء بثقة واستدامة.'
+              : 'At CoolNex, we are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards through specialized teams, modern techniques, and effective solutions that ensure optimal performance, reduced energy consumption, and customer satisfaction with trust and sustainability.'}
           </p>
 
-          {/* Services */}
-          <div className="flex flex-col gap-5 mt-2">
-
-            {/* COOL NEXMaintenance */}
-            <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
-              {/* <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
-                {services[0].icon}
-              </div> */}
-              {/* <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
-                <h3 className="text-[#0d1f3c] font-bold text-base">
-                  {isRtl ? 'الصيانة البحرية المتكاملة' : 'COOL NEXMaintenance'}
-                </h3>
-                <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
-                  {isRtl
-                    ? 'خدمات صيانة بحرية شاملة تشمل الطلاءات الوقائية، العزل، والتشغيل الآمن للسفن والمنشآت البحرية.'
-                    : 'Comprehensive COOL NEXmaintenance services including protective coatings, insulation, and safe vessel operations.'}
-                </p>
-              </div> */}
-            </div>
-
-            {/* Divider */}
-            <div className="h-px bg-[#e2e8f0]" />
-
-            {/* Corrosion Protection */}
-            {/* <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
-              <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
-                {services[1].icon}
+          {/* Values */}
+          <div className="grid gap-4 mt-2">
+            {(isRtl
+              ? [
+                  { title: 'الاحترافية', description: 'نؤمن بأن الجودة والإتقان أساس نجاحنا واستمرار ثقة عملائنا.' },
+                  { title: 'الابتكار', description: 'نعتمد أحدث التقنيات والحلول الذكية في مجال التكييف والصيانة.' },
+                  { title: 'الشفافية', description: 'نقدم خدمات واضحة بتقارير دقيقة وأسعار عادلة ومصداقية عالية.' },
+                  { title: 'الالتزام', description: 'نحترم الوقت ونلتزم بسرعة الاستجابة ودقة التنفيذ.' },
+                  { title: 'الاستدامة', description: 'نسعى إلى حلول تساهم في رفع كفاءة الطاقة والحفاظ على البيئة.' },
+                  { title: 'رضا العميل', description: 'نجاحنا الحقيقي يبدأ من تجربة عميل مميزة وخدمة موثوقة طويلة الأمد.' },
+                ]
+              : [
+                  { title: 'Professionalism', description: 'We believe quality and excellence are the foundation of our success and customer trust.' },
+                  { title: 'Innovation', description: 'We use the latest technologies and smart solutions in air conditioning and maintenance.' },
+                  { title: 'Transparency', description: 'We deliver clear services with accurate reports, fair pricing, and high credibility.' },
+                  { title: 'Commitment', description: 'We respect time and are committed to fast response and precise execution.' },
+                  { title: 'Sustainability', description: 'We seek solutions that improve energy efficiency and preserve the environment.' },
+                  { title: 'Customer Satisfaction', description: 'Our true success begins with an excellent customer experience and long-term reliable service.' },
+                ]
+            ).map((item, idx) => (
+              <div key={idx} className="rounded-3xl bg-white p-5 shadow-sm border border-slate-100">
+                <h3 className="text-base font-semibold text-[#0d1f3c]">{item.title}</h3>
+                <p className="text-sm text-[#64748b] mt-2 leading-relaxed">{item.description}</p>
               </div>
-              <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
-                <h3 className="text-[#0d1f3c] font-bold text-base">
-                  {isRtl ? 'الحماية من التآكل والعزل' : 'Corrosion Protection'}
-                </h3>
-                <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
-                  {isRtl
-                    ? 'حلول حماية التآكل والعزل الحراري المصممة للحفاظ على سلامة الأصول البحرية والصناعية.'
-                    : 'Corrosion protection and thermal insulation solutions designed to preserve COOL NEXand industrial assets.'}
-                </p>
-              </div>
-            </div> */}
-
+            ))}
           </div>
 
           {/* CTA */}

@@ -38,7 +38,7 @@ const content = {
     visionLabel: 'our vision',
     missionTitle: 'Our Mission',
     missionText:
-      'We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance, reduce energy consumption, and achieve customer satisfaction with confidence and sustainability.',
+      'At CoolNex, we are committed to delivering AC maintenance, operation, and cleaning services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance, reduced energy consumption, and customer satisfaction with trust and sustainability.',
     visionTitle: 'Our Vision',
     visionText:
       'To become a leading brand in smart AC solutions and maintenance in Saudi Arabia, through innovative and sustainable services that align with Vision 2030, and improve quality of life and energy efficiency.',
