@@ -91,7 +91,7 @@ const content: Record<Locale, Copy> = {
     sectionIntro: "Our Services",
     sectionTitle: "Discover Our Professional AC Maintenance Services",
     sectionDescription:
-      "At CoolNex, we are committed to delivering professional AC maintenance, cleaning, and operation services across Saudi Arabia with cutting-edge technology and highest quality standards.",,
+      "At CoolNex, we are committed to delivering professional AC maintenance, cleaning, and operation services across Saudi Arabia with cutting-edge technology and highest quality standards.",
     services: [
       {
         slug: "ac-maintenance",
