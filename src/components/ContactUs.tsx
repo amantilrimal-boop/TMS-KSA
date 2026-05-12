@@ -10,54 +10,54 @@ type ContactUsProps = {
 const faqs = {
   en: [
     {
-      q: "What services does كول نكس - COOL NEX provide in Saudi Arabia?",
-      a: "كول نكس - COOL NEX delivers protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance across the KSA market.",
+      q: "What services does CoolNex provide in Saudi Arabia?",
+      a: "CoolNex specializes in AC maintenance, operation, and cleaning services across Saudi Arabia. We provide professional solutions for residential and commercial facilities including system maintenance, preventive care, emergency repairs, and energy efficiency optimization.",
     },
     {
-      q: "Can كول نكس - COOL NEX handle both offshore and onshore projects?",
-      a: "Yes. كول نكس - COOL NEX works on marine, industrial, and commercial projects in both offshore and onshore environments with certified teams and strict safety standards.",
+      q: "Can CoolNex handle maintenance for all types of AC systems?",
+      a: "Yes. CoolNex works on all types of AC systems including window units, split systems, ducted systems, and commercial HVAC installations with certified technicians and modern equipment.",
     },
     {
-      q: "Does كول نكس - COOL NEX offer corrosion protection and thermal insulation?",
-      a: "Absolutely. We provide corrosion-resistant coatings and thermal insulation solutions designed to extend asset life and improve operational safety.",
+      q: "Does CoolNex offer energy efficiency solutions?",
+      a: "Absolutely. We provide energy efficiency consultations and solutions designed to reduce power consumption, improve system performance, and lower operational costs.",
     },
     {
-      q: "Can I request a site survey or quote?",
-      a: "Yes. Use the contact form or call us to arrange a site survey, project evaluation, or customised proposal for your maintenance and protection needs.",
+      q: "Can I request a system inspection or quote?",
+      a: "Yes. Use the contact form or call us to arrange a professional inspection, system evaluation, or customized maintenance proposal for your AC needs.",
     },
     {
-      q: "Does كول نكس - COOL NEX support equipment maintenance and repair?",
-      a: "Yes, our maintenance teams specialise in equipment repair and preventive services to keep your systems running reliably.",
+      q: "Does CoolNex support preventive maintenance programs?",
+      a: "Yes, our maintenance teams specialize in preventive maintenance programs and emergency repair services to keep your AC systems running reliably year-round.",
     },
     {
-      q: "How can I get in touch with كول نكس - COOL NEX?",
-      a: "Reach out via phone, email, or the contact form below. Our team is ready to discuss your marine and industrial contracting requirements.",
+      q: "How can I get in touch with CoolNex?",
+      a: "Reach out via phone, email, or the contact form below. Our team is ready to discuss your AC maintenance and service requirements.",
     },
   ],
   ar: [
     {
-      q: "ما الخدمات التي تقدمها كول نكس - COOL NEX في المملكة العربية السعودية؟",
-      a: "توفر كول نكس - COOL NEX خدمات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات في سوق المملكة.",
+      q: "ما الخدمات التي تقدمها CoolNex في المملكة العربية السعودية؟",
+      a: "تتخصص CoolNex في خدمات صيانة وتشغيل وتنظيف أنظمة التكييف في المملكة العربية السعودية. نقدم حلولاً احترافية للمنازل والمنشآت التجارية تشمل صيانة الأنظمة والعناية الوقائية والإصلاحات الطارئة وتحسين كفاءة الطاقة.",
     },
     {
-      q: "هل تتعامل كول نكس - COOL NEX مع المشاريع البحرية والبرية؟",
-      a: "نعم. تعمل كول نكس - COOL NEX في المشاريع البحرية والصناعية والتجارية في البحر والبرّ بقيادة فرق معتمدة ومعايير سلامة صارمة.",
+      q: "هل تتعامل CoolNex مع جميع أنواع أنظمة التكييف؟",
+      a: "نعم. تعمل CoolNex على جميع أنواع أنظمة التكييف بما في ذلك الأجهزة النافذية والأنظمة المنفصلة والأنظمة الدكت والتركيبات التجارية مع فنيين معتمدين.",
     },
     {
-      q: "هل تقدم كول نكس - COOL NEX حماية من التآكل وعزلًا حراريًا؟",
-      a: "بالتأكيد. نقدم حلول حماية من التآكل والعزل الحراري المصممة لإطالة عمر الأصول وتحسين السلامة التشغيلية.",
+      q: "هل تقدم CoolNex حلول كفاءة الطاقة؟",
+      a: "بالتأكيد. نقدم استشارات وحلول كفاءة الطاقة المصممة لتقليل استهلاك الكهرباء وتحسين أداء النظام وخفض تكاليف التشغيل.",
     },
     {
-      q: "هل يمكنني طلب تقييم موقع وعرض سعر؟",
-      a: "نعم. استخدم نموذج الاتصال أو اتصل بنا لترتيب زيارة موقع وتقييم المشروع أو عرض مخصص لاحتياجاتك.",
+      q: "هل يمكنني طلب فحص النظام وعرض سعر؟",
+      a: "نعم. استخدم نموذج الاتصال أو اتصل بنا لترتيب فحص احترافي وتقييم النظام أو عرض صيانة مخصص لاحتياجات التكييف لديك.",
     },
     {
-      q: "هل تقدم كول نكس - COOL NEX صيانة وإصلاح المعدات؟",
-      a: "نعم، تتخصص فرق الصيانة لدينا في إصلاح المعدات والخدمات الوقائية للحفاظ على تشغيل أنظمتك بشكل موثوق.",
+      q: "هل تقدم CoolNex برامج الصيانة الوقائية؟",
+      a: "نعم، تتخصص فرق الصيانة لدينا في برامج الصيانة الوقائية وخدمات الإصلاح الطارئة للحفاظ على أنظمة التكييف الخاصة بك في حالة عمل موثوقة.",
     },
     {
-      q: "كيف يمكنني التواصل مع كول نكس - COOL NEX؟",
-      a: "تواصل معنا عبر الهاتف أو البريد الإلكتروني أو نموذج الاتصال أدناه. فريقنا جاهز لمناقشة احتياجات المقاولات الفنية البحرية والصناعية.",
+      q: "كيف يمكنني التواصل مع CoolNex؟",
+      a: "تواصل معنا عبر الهاتف أو البريد الإلكتروني أو نموذج الاتصال أدناه. فريقنا جاهز لمناقشة احتياجات صيانة التكييف والخدمات لديك.",
     },
   ],
 };
@@ -67,7 +67,7 @@ const contacts = {
     {
       href: "tel:+966540915000",
       label: "966540915000",
-      sub: "Call كول نكس - COOL NEX to discuss your project or arrange a site survey.",
+      sub: "Call CoolNex to discuss your AC maintenance needs or schedule a service appointment.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const contacts = {
     {
       href: "mailto:info@cool-nex.com",
       label: "info@cool-nex.com",
-      sub: "Email كول نكس - COOL NEX for technical inquiries and project planning.",
+      sub: "Email CoolNex for technical inquiries and service scheduling.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -106,7 +106,7 @@ const contacts = {
     {
       href: "https://maps.google.com",
       label: "Office Location",
-      sub: "كول نكس - COOL NEX., Jeddah, Mecca Region, Saudi Arabia",
+      sub: "CoolNex., Jeddah, Saudi Arabia - Professional AC Services",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -128,7 +128,7 @@ const contacts = {
     {
           href: "tel:+966540915000",
       label: "966540915000",
-      sub: "اتصل بشركة كول نكس - COOL NEX لمناقشة مشروعك أو لترتيب زيارة موقع.",
+      sub: "اتصل بـ CoolNex لمناقشة احتياجات صيانة التكييف أو لجدولة موعد الخدمة.",
       icon: (
         <svg
           viewBox="0 0 24 24"
@@ -147,7 +147,7 @@ const contacts = {
     {
       href: "mailto:info@cool-nex.com",
       label: "info@cool-nex.com",
-      sub: "راسل شركة كول نكس - COOL NEX للاستفسارات الفنية وخطط المشاريع.",
+      sub: "راسل CoolNex للاستفسارات الفنية وجدولة الخدمات.",
       icon: (
         <svg
           viewBox="0 0 24 24"

@@ -104,19 +104,19 @@ export default async function About({ locale }: About) {
           {/* Services */}
           <div className="flex flex-col gap-5 mt-2">
 
-            {/* Marine Maintenance */}
+            {/* COOL NEXMaintenance */}
             <div className={`flex items-start gap-4 ${isRtl ? 'text-right' : 'text-left'}`}>
               {/* <div className={`flex-shrink-0 ${isRtl ? 'order-2 ml-auto' : 'order-1'} w-14 h-14 rounded-full border-2 border-dashed border-[#c9a227] flex items-center justify-center bg-[#1a3a6b]`}>
                 {services[0].icon}
               </div> */}
               {/* <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
                 <h3 className="text-[#0d1f3c] font-bold text-base">
-                  {isRtl ? 'الصيانة البحرية المتكاملة' : 'Marine Maintenance'}
+                  {isRtl ? 'الصيانة البحرية المتكاملة' : 'COOL NEXMaintenance'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
                   {isRtl
                     ? 'خدمات صيانة بحرية شاملة تشمل الطلاءات الوقائية، العزل، والتشغيل الآمن للسفن والمنشآت البحرية.'
-                    : 'Comprehensive marine maintenance services including protective coatings, insulation, and safe vessel operations.'}
+                    : 'Comprehensive COOL NEXmaintenance services including protective coatings, insulation, and safe vessel operations.'}
                 </p>
               </div> */}
             </div>
@@ -136,7 +136,7 @@ export default async function About({ locale }: About) {
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
                   {isRtl
                     ? 'حلول حماية التآكل والعزل الحراري المصممة للحفاظ على سلامة الأصول البحرية والصناعية.'
-                    : 'Corrosion protection and thermal insulation solutions designed to preserve marine and industrial assets.'}
+                    : 'Corrosion protection and thermal insulation solutions designed to preserve COOL NEXand industrial assets.'}
                 </p>
               </div>
             </div> */}

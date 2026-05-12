@@ -12,35 +12,36 @@ const tajawal = Tajawal({
 });
 
 export const metadata = {
-  title: 'كول نكس - COOL NEX | Marine Contracting Saudi Arabia',
+  title: 'CoolNex | AC Maintenance & Services in Saudi Arabia',
   description:
-    'كول نكس - COOL NEX offers marine and industrial contracting services across Saudi Arabia, including protective coatings, corrosion protection, thermal insulation, abrasive blasting, and equipment maintenance for ships, offshore and industrial facilities.',
+    'CoolNex is a specialized company in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards. We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance.',
   keywords: [
     'كول نكس',
-    'COOL NEX',
-    'marine contracting',
-    'marine contracting Saudi Arabia',
-    'protective coatings',
-    'corrosion protection',
-    'thermal insulation',
-    'abrasive blasting',
-    'equipment maintenance',
-    'offshore contracting',
-    'industrial contracting',
+    'CoolNex',
+    'AC maintenance',
+    'AC maintenance Saudi Arabia',
+    'air conditioning services',
+    'AC cleaning',
+    'AC repair',
+    'HVAC maintenance',
+    'air conditioning repair',
+    'cooling services',
+    'professional AC services',
+    'energy efficiency',
   ],
   openGraph: {
-    title: 'كول نكس - COOL NEX | Marine Contracting Saudi Arabia',
+    title: 'CoolNex | Professional AC Maintenance Services in Saudi Arabia',
     description:
-      'كول نكس - COOL NEX offers marine and industrial contracting services across Saudi Arabia, including protective coatings, corrosion protection, thermal insulation, abrasive blasting, and equipment maintenance.',
+      'CoolNex specializes in AC maintenance, operation, and cleaning services across Saudi Arabia with cutting-edge technology and professional quality standards.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'كول نكس - COOL NEX',
+    siteName: 'CoolNex',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'كول نكس - COOL NEX | Marine Contracting Saudi Arabia',
+    title: 'CoolNex | AC Maintenance Services Saudi Arabia',
     description:
-      'Marine and industrial contracting in Saudi Arabia with protective coatings, corrosion protection, thermal insulation, abrasive blasting, and equipment maintenance.',
+      'Professional AC maintenance and cleaning services in Saudi Arabia with modern technology and highest quality standards.',
   },
   icons: {
     icon: '/favicon.ico',

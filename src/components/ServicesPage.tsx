@@ -72,164 +72,164 @@ const content: Record<Locale, Copy> = {
     eyebrow: "TM Service",
     title: "كول نكس - COOL NEX",
     description:
-      "كول نكس - COOL NEX is one of the leading companies in the KSA market in the field of protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance.",
+      "CoolNex specializes in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards.",
     primaryCta: "Our Services",
     secondaryCta: "Contact Us",
     heroStats: [
       { value: "4353+", label: "Worldwide Clients" },
       { value: "Vision 2030", label: "Saudi-aligned Solutions" },
-      { value: "Trusted", label: "Marine Contracting" },
+      { value: "Trusted", label: "AC Services" },
     ],
     heroPanelTitle: "كول نكس - COOL NEX Service",
     heroPanelDescription:
-      "Comprehensive industrial and marine contracting services focused on asset protection, maintenance, and operational continuity.",
+      "Comprehensive AC maintenance and cleaning services focused on system reliability, energy efficiency, and customer comfort.",
     heroPanelPoints: [
-      "Protective coatings and corrosion control",
-      "Offshore and onshore maintenance solutions",
-      "Thermal insulation and equipment servicing",
+      "Professional AC maintenance and repair",
+      "System cleaning and preventive care",
+      "Energy efficiency optimization",
     ],
     sectionIntro: "Our Services",
-    sectionTitle: "Discover Our Premium Marine & Industrial Services",
+    sectionTitle: "Discover Our Professional AC Maintenance Services",
     sectionDescription:
-      "At كول نكس - COOL NEX, we are committed to delivering protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance across Saudi Arabia.",
+      "At CoolNex, we are committed to delivering professional AC maintenance, cleaning, and operation services across Saudi Arabia with cutting-edge technology and highest quality standards.",,
     services: [
       {
-        slug: "protective-coatings",
-        name: "Protective Coatings",
-        kicker: "Coatings",
+        slug: "ac-maintenance",
+        name: "AC Maintenance",
+        kicker: "Maintenance",
         description:
-          "Durable protective coatings for marine, industrial, and structural assets.",
+          "Professional AC system maintenance and repair for residential and commercial properties.",
         icon: ShieldCheck,
       },
       {
-        slug: "abrasive-blasting",
-        name: "Abrasive Blasting",
-        kicker: "Blasting",
+        slug: "system-cleaning",
+        name: "System Cleaning",
+        kicker: "Cleaning",
         description:
-          "Professional abrasive blasting services for surface preparation and restoration.",
+          "Professional AC system cleaning and filter replacement for optimal performance.",
         icon: Blocks,
       },
       {
-        slug: "offshore-works",
-        name: "Offshore Works",
-        kicker: "Offshore",
+        slug: "preventive-care",
+        name: "Preventive Care",
+        kicker: "Prevention",
         description:
-          "Skilled offshore maintenance and fabrication services for marine operations.",
+          "Scheduled preventive maintenance programs to keep AC systems running reliably year-round.",
         icon: Globe,
       },
       {
-        slug: "corrosion-protection",
-        name: "Corrosion Protection",
-        kicker: "Protection",
+        slug: "energy-efficiency",
+        name: "Energy Efficiency",
+        kicker: "Efficiency",
         description:
-          "Comprehensive corrosion protection systems to extend asset life and reduce downtime.",
+          "Energy optimization solutions to reduce power consumption and lower operational costs.",
         icon: ShieldCheck,
       },
       {
-        slug: "thermal-insulation",
-        name: "Thermal Insulation",
-        kicker: "Insulation",
+        slug: "emergency-repair",
+        name: "Emergency Repair",
+        kicker: "Emergency",
         description:
-          "Thermal insulation solutions designed for energy efficiency and safety.",
+          "24/7 emergency AC repair services for urgent system failures and breakdowns.",
         icon: Palette,
       },
       {
-        slug: "equipment-maintenance",
-        name: "Equipment Maintenance",
-        kicker: "Maintenance",
+        slug: "operation-services",
+        name: "Operation & Support",
+        kicker: "Support",
         description:
-          "Preventive and corrective maintenance services for industrial equipment and systems.",
+          "Complete AC operation support and system management for maximum comfort and reliability.",
         icon: Wrench,
       },
     ],
     spotlightEyebrow: "Integrated Maintenance",
-    spotlightTitle: "Complete Marine & Industrial Coverage",
+    spotlightTitle: "Complete COOL NEX& Industrial Coverage",
     spotlightDescription:
       "From protective coatings to equipment maintenance and support services, كول نكس - COOL NEX delivers reliable solutions that protect assets and optimize performance.",
     spotlightBullets: [
-      "Finishing, structural coatings, and surface protection services",
-      "HVAC maintenance, plumbing, and electrical support",
-      "Pest control, water tank cleaning, and insulation services",
-      "Integrated solutions for a healthier and safer environment",
+      "AC maintenance and repair services",
+      "System cleaning and filter replacement",
+      "Preventive maintenance programs",
+      "Energy efficiency optimization",
     ],
     highlights: [
       {
-        title: "Protective Coatings",
+        title: "AC Maintenance",
         description:
-          "Advanced coating systems designed to shield assets from corrosion and wear.",
+          "Professional maintenance and repair services for all AC system types with certified technicians.",
         icon: ShieldCheck,
       },
       {
-        title: "Abrasive Blasting",
+        title: "System Cleaning",
         description:
-          "Surface preparation services that restore infrastructure and prepare it for long-lasting protection.",
+          "Comprehensive cleaning services that improve efficiency and extend system lifespan.",
         icon: Blocks,
       },
       {
-        title: "Offshore Works",
+        title: "Preventive Care",
         description:
-          "Specialized offshore fabrication and maintenance services for marine projects.",
+          "Scheduled maintenance programs that prevent breakdowns and optimize performance.",
         icon: Globe,
       },
       {
-        title: "Equipment Maintenance",
+        title: "Energy Efficiency",
         description:
-          "Rapid and preventive maintenance solutions that keep industrial equipment operating smoothly.",
+          "Professional solutions to reduce energy consumption and lower operating costs.",
         icon: Wrench,
       },
     ],
-    whyTitle: "Why Choose كول نكس - COOL NEX?",
+    whyTitle: "Why Choose CoolNex?",
     whyDescription:
-      "كول نكس - COOL NEX combines technical expertise, marine contracting experience, and Saudi-focused services to deliver projects with safety, quality, and reliability.",
+      "CoolNex combines technical expertise, professional standards, and Saudi-focused services to deliver AC solutions with quality and reliability.",
     whyPoints: [
-      "Specialized marine and industrial contracting capabilities",
-      "Experience in protective coatings and corrosion control",
-      "Safety-first execution across onshore and offshore works",
-      "Integrated maintenance services for long-term asset health",
+      "Certified AC technicians with extensive experience",
+      "Expertise in all AC system types and brands",
+      "Professional execution with customer satisfaction focus",
+      "Integrated maintenance services for long-term system health",
     ],
     techTitle: "Core Service Offerings",
     techDescription:
       "Our service portfolio spans the technical and operational disciplines required to protect and maintain your assets in demanding environments.",
     technologies: [
-      "Protective Coatings",
-      "Abrasive Blasting",
-      "Offshore Works",
-      "Corrosion Protection",
-      "Thermal Insulation",
-      "Equipment Maintenance",
+      "AC Maintenance",
+      "System Cleaning",
+      "Preventive Care",
+      "Energy Efficiency",
+      "Emergency Repair",
+      "Operation Support",
     ],
     faqTitle: "Frequently Asked Questions",
-    faqDescription: "Answers about our industrial and marine contracting services.",
+    faqDescription: "Answers about our AC maintenance and service offerings.",
     faqs: [
       {
-        question: "What industries does كول نكس - COOL NEX serve?",
+        question: "What types of AC systems does CoolNex service?",
         answer:
-          "كول نكس - COOL NEX serves marine, industrial, and commercial clients across Saudi Arabia, with expertise in protective coatings, blasting, insulation, and equipment maintenance.",
+          "CoolNex services all types of AC systems including window units, split systems, ducted systems, and commercial HVAC installations for residential and commercial clients across Saudi Arabia.",
       },
       {
-        question: "Do you support both onshore and offshore projects?",
+        question: "Do you offer emergency AC repair services?",
         answer:
-          "Yes. We provide certified teams and resources for safe and efficient work on both onshore and offshore sites.",
+          "Yes. We provide 24/7 emergency repair services for urgent AC breakdowns and system failures.",
       },
       {
-        question: "How does كول نكس - COOL NEX manage corrosion protection?",
+        question: "How often should I have preventive maintenance?",
         answer:
-          "We deliver tailored corrosion protection systems including surface preparation, coatings, and monitoring strategies to extend asset life.",
+          "We recommend preventive maintenance every 6-12 months depending on usage and system age to ensure optimal performance and prevent costly repairs.",
       },
       {
-        question: "Can كول نكس - COOL NEX handle preventive maintenance?",
+        question: "Can CoolNex help reduce energy consumption?",
         answer:
-          "Yes. Our preventive and corrective maintenance services are designed to reduce downtime and maintain equipment reliability.",
+          "Yes. Our energy efficiency consultations and optimization services are designed to reduce power consumption and lower your operational costs.",
       },
       {
-        question: "Do you offer water tank and cleaning services?",
+        question: "Do you offer maintenance contracts?",
         answer:
-          "Yes. We offer water tank cleaning, pest control, and related protection services to support healthier and safer environments.",
+          "Yes. We offer flexible maintenance contracts and service packages to keep your AC systems in peak condition year-round.",
       },
       {
-        question: "How can I request a quote?",
+        question: "How can I request a service appointment?",
         answer:
-          "Contact us through the form or call us directly to arrange a site survey and receive a customized project proposal.",
+          "Contact us through the form or call us directly to schedule a service appointment, inspection, or consultation with our professional team.",
       },
     ],
   },
@@ -254,9 +254,9 @@ const content: Record<Locale, Copy> = {
       "العزل الحراري وخدمة المعدات",
     ],
     sectionIntro: "خدماتنا",
-    sectionTitle: "اكتشف خدماتنا البحرية والصناعية المتميزة",
+    sectionTitle: "اكتشف خدمات صيانة التكييف الاحترافية",
     sectionDescription:
-      "في كول نكس - COOL NEX للمقاولات الفنية البحرية، نلتزم بتقديم الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري، وصيانة المعدات في جميع أنحاء المملكة.",
+      "في CoolNex، نلتزم بتقديم خدمات صيانة وتشغيل وتنظيف أنظمة التكييف الاحترافية في جميع أنحاء المملكة بتقنيات حديثة وأعلى معايير الجودة.",
     services: [
       {
         slug: "protective-coatings",

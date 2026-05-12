@@ -168,14 +168,14 @@ export async function About({ locale }: About) {
           <h2 className="text-[2rem] sm:text-[2.4rem] font-extrabold text-[#0d1f3c] leading-tight">
             {isRtl
               ? 'كول نكس - COOL NEX — الرائد في المقاولات البحرية بالسعودية.'
-              : "Saudi Arabia's Leader In Marine Contracting."}
+              : "Saudi Arabia's Leader In COOL NEXContracting."}
           </h2>
 
           {/* Body */}
           <p className="text-[#4a5568] text-base sm:text-lg leading-relaxed max-w-xl">
             {isRtl
               ? 'منذ تأسيسها، تميّزت كول نكس - COOL NEX في تقديم خدمات المقاولات البحرية، الطلاءات الوقائية، حماية التآكل، وصيانة المعدات.'
-              : 'Since inception, كول نكس - COOL NEX has excelled in marine contracting, protective coatings, corrosion protection, and equipment maintenance.'}
+              : 'CoolNex specializes in professional AC maintenance, operation, and cleaning services. We combine modern technology, professional standards, and responsive service for all your AC needs.'}
           </p>
 
           {/* Services */}
@@ -188,12 +188,12 @@ export async function About({ locale }: About) {
               </div>
               <div>
                 <h3 className="text-[#0d1f3c] font-bold text-base">
-                  {isRtl ? 'الصيانة البحرية والطلاءات' : 'Marine Maintenance & Coatings'}
+                  {isRtl ? 'الصيانة البحرية والطلاءات' : 'COOL NEXMaintenance & Coatings'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
                   {isRtl
                     ? 'خدمات الصيانة البحرية، الطلاءات الوقائية، والحماية للأصول البحرية والصناعية.'
-                    : 'Marine maintenance, protective coatings, and asset protection services.'}
+                    : 'COOL NEXmaintenance, protective coatings, and asset protection services.'}
                 </p>
               </div>
             </div>
@@ -213,7 +213,7 @@ export async function About({ locale }: About) {
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
                   {isRtl
                     ? 'أنظمة حماية التآكل والعزل الحراري للحفاظ على سلامة ومتانة الأصول البحرية والصناعية.'
-                    : 'Corrosion protection and thermal insulation systems designed to preserve marine and industrial assets.'}
+                    : 'Corrosion protection and thermal insulation systems designed to preserve COOL NEXand industrial assets.'}
                 </p>
               </div>
             </div>

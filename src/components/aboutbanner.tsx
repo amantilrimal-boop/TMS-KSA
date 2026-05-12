@@ -18,13 +18,13 @@ export default function AboutBanner({ locale }: AboutBannerProps) {
 
   const arabicContent = {
     title: "كول نكس - COOL NEX",
-    description: "كول نكس - COOL NEX تُعد واحدة من الشركات الرائدة في المملكة العربية السعودية. تقدم خدمات شاملة في مجال الصيانة البحرية، الحماية من التآكل، العزل، والتشطيبات الداخلية والخارجية للسفن والمنشآت البحرية.",
+    description: "CoolNex شركة متخصصة في خدمات صيانة وتشغيل وتنظيف أنظمة التكييف في المملكة العربية السعودية، توفر حلولاً احترافية باستخدام أحدث التقنيات ومعايير الجودة الحديثة.",
     badge: "من نحن",
   };
 
   const englishContent = {
     title: "كول نكس - COOL NEX",
-    description: "كول نكس - COOL NEX is one of the leading marine contracting companies in Saudi Arabia. We provide comprehensive services in ship and facility maintenance, protective coatings, corrosion protection, thermal insulation, and industrial finishing.",
+    description: "CoolNex is a specialized company in AC maintenance, operation, and cleaning services in Saudi Arabia, providing professional solutions using cutting-edge technology and modern quality standards.",
     badge: "About Us",
   };
 

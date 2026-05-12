@@ -32,7 +32,7 @@ const testimonialsContent: Record<"en" | "ar", Testimonial[]> = {
       name: "Mohammed Al-Dosari",
       gender: "male",
       quote:
-        "Excellent technical expertise in marine contracting. Their solutions improved our operational efficiency significantly.",
+        "Excellent technical expertise in COOL NEXcontracting. Their solutions improved our operational efficiency significantly.",
     },
     {
       name: "Reem Al-Otaibi",
@@ -50,7 +50,7 @@ const testimonialsContent: Record<"en" | "ar", Testimonial[]> = {
       name: "Noura Al-Ghamdi",
       gender: "female",
       quote:
-        "Professional, skilled, and dedicated. كول نكس - COOL NEX stands out as one of the best marine contractors in the region.",
+        "Professional, skilled, and dedicated. كول نكس - COOL NEX stands out as one of the best COOL NEXcontractors in the region.",
     },
   ],
   ar: [
@@ -135,7 +135,7 @@ export default function Testimonials({ locale }: TestimonialsProps) {
           <p className="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">
             {isRtl
               ? "تجارب حقيقية من شركائنا وعملائنا في مختلف المشاريع البحرية والصناعية."
-              : "Real experiences from our partners and clients across marine and industrial projects."}
+              : "Real experiences from our partners and clients across COOL NEXand industrial projects."}
           </p>
         </div>
 
