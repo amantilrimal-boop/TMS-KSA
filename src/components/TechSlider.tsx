@@ -95,7 +95,7 @@ export default function TechSlider({ locale }: TechSliderProps) {
         <h2 className="text-2xl md:text-4xl font-extrabold text-[#0d1f3c] mb-4">
           {isRtl ? 'عملائنا' : 'Our Clients'}
         </h2>
-        <p className="text-gray-500 max-w-2xl mx-auto text-[15px] leading-relaxed">
+        <p className="text-gray-500 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed">
           {isRtl
             ? 'نحن فخورون بالعمل مع أكبر الشركات في المملكة العربية السعودية وخارجها.'
             : 'Proudly working with leading companies across Saudi Arabia and beyond.'}

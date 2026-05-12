@@ -172,7 +172,7 @@ export async function About({ locale }: About) {
           </h2>
 
           {/* Body */}
-          <p className="text-[#4a5568] text-[15px] leading-relaxed max-w-xl">
+          <p className="text-[#4a5568] text-base sm:text-lg leading-relaxed max-w-xl">
             {isRtl
               ? 'منذ تأسيسها، تميّزت كول نكس - COOL NEX في تقديم خدمات المقاولات البحرية، الطلاءات الوقائية، حماية التآكل، وصيانة المعدات.'
               : 'Since inception, كول نكس - COOL NEX has excelled in marine contracting, protective coatings, corrosion protection, and equipment maintenance.'}
@@ -187,7 +187,7 @@ export async function About({ locale }: About) {
                 {services[0].icon}
               </div>
               <div>
-                <h3 className="text-[#0d1f3c] font-bold text-[15px]">
+                <h3 className="text-[#0d1f3c] font-bold text-base">
                   {isRtl ? 'الصيانة البحرية والطلاءات' : 'Marine Maintenance & Coatings'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
@@ -207,7 +207,7 @@ export async function About({ locale }: About) {
                 {services[1].icon}
               </div>
               <div>
-                <h3 className="text-[#0d1f3c] font-bold text-[15px]">
+                <h3 className="text-[#0d1f3c] font-bold text-base">
                   {isRtl ? 'حماية التآكل والعزل' : 'Corrosion Protection & Insulation'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
@@ -256,7 +256,7 @@ export default function About2({ locale }: AboutProps) {
             <h2 className="mt-5 text-3xl font-extrabold leading-tight text-[#0d1f3c] sm:text-[2.2rem]">
               {copy.missionTitle}
             </h2>
-            <p className="mt-5 text-[15px] leading-8 text-[#4a5568] sm:text-base">
+            <p className="mt-5 text-base leading-8 text-[#4a5568] sm:text-lg">
               {copy.missionText}
             </p>
           </article>
@@ -268,7 +268,7 @@ export default function About2({ locale }: AboutProps) {
             <h2 className="mt-5 text-3xl font-extrabold leading-tight sm:text-[2.2rem]">
               {copy.visionTitle}
             </h2>
-            <p className="mt-5 text-[15px] leading-8 text-white/78 sm:text-base">
+            <p className="mt-5 text-base leading-8 text-white/78 sm:text-lg">
               {copy.visionText}
             </p>
           </article>
@@ -283,7 +283,7 @@ export default function About2({ locale }: AboutProps) {
           <h2 className="mt-5 max-w-4xl text-3xl font-extrabold leading-tight text-[#0d1f3c] sm:text-[2.4rem]">
             {copy.whyTitle}
           </h2>
-          <p className="mt-5 max-w-4xl text-[15px] leading-8 text-[#4a5568] sm:text-base">
+          <p className="mt-5 max-w-4xl text-base leading-8 text-[#4a5568] sm:text-lg">
             {copy.whyText}
           </p>
 

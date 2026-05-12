@@ -380,7 +380,7 @@ export default function ContactUs({ locale = "en" }: ContactUsProps) {
           <p className="text-emerald-100 text-lg max-w-xl leading-relaxed">
             {isRtl
               ? "كول نكس - COOL NEX هي إحدى الشركات الرائدة في سوق المملكة في مجالات الطلاء الواقي، السفع الرملي، الأعمال البحرية والبرية، الحماية من التآكل، العزل الحراري وصيانة المعدات."
-              : "كول نكس - COOL NEX is one of the leading companies in the KSA market for protective coatings, abrasive blasting, onshore & offshore works, corrosion protection, thermal insulation, and equipment maintenance."}
+              : "A specialized company in AC maintenance, operation, and cleaning services, providing professional solutions for individuals and commercial facilities using cutting-edge technology and modern quality standards."}
           </p>
 
           {/* Scroll hint */}
@@ -458,7 +458,7 @@ export default function ContactUs({ locale = "en" }: ContactUsProps) {
               ? "هل لديك أي استفسارات؟ يسعدنا تلقي رسالتك"
               : "Have any questions? Feel free to write to us."}
           </h2>
-          <p className="text-gray-500 text-[15px] leading-relaxed mb-8">
+          <p className="text-base sm:text-lg text-gray-500 leading-relaxed mb-8">
             {isRtl
               ? "من الاستفسارات حول الخدمات إلى طلبات الدعم، فريقنا هنا لمساعدتك."
               : "From service inquiries to support requests, our team is here to help."}

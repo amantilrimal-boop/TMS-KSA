@@ -95,7 +95,7 @@ export default async function About({ locale }: About) {
           </h2>
 
           {/* Body */}
-          <p className="text-[#4a5568] text-[15px] leading-relaxed max-w-xl">
+          <p className="text-[#4a5568] text-base sm:text-lg leading-relaxed max-w-xl">
             {isRtl
               ? 'نلتزم بتقديم خدمات صيانة وتشغيل أنظمة التكييف بأعلى معايير الجودة والاحترافية، من خلال كوادر متخصصة وتقنيات حديثة وحلول فعالة تضمن الأداء الأمثل.'
               : 'We are committed to delivering AC maintenance and operation services with the highest quality and professionalism standards, through specialized teams, modern techniques, and effective solutions that ensure optimal performance.'}
@@ -110,7 +110,7 @@ export default async function About({ locale }: About) {
                 {services[0].icon}
               </div> */}
               {/* <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
-                <h3 className="text-[#0d1f3c] font-bold text-[15px]">
+                <h3 className="text-[#0d1f3c] font-bold text-base">
                   {isRtl ? 'الصيانة البحرية المتكاملة' : 'Marine Maintenance'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">
@@ -130,7 +130,7 @@ export default async function About({ locale }: About) {
                 {services[1].icon}
               </div>
               <div className={`flex-1 ${isRtl ? 'order-1' : 'order-2'}`}>
-                <h3 className="text-[#0d1f3c] font-bold text-[15px]">
+                <h3 className="text-[#0d1f3c] font-bold text-base">
                   {isRtl ? 'الحماية من التآكل والعزل' : 'Corrosion Protection'}
                 </h3>
                 <p className="text-[#718096] text-[13px] mt-0.5 leading-relaxed">

@@ -123,10 +123,10 @@ export default function Footer({ lang }: FooterProps) {
         <p className={`text-base leading-relaxed text-white/95 mb-[30px] max-w-[1000px] text-center mx-auto ${isArabic ? 'text-right' : 'text-left'}`}>
           {t.description}
         </p>
-
+{/* 
         <p className="text-sm leading-relaxed text-white/80 mb-[30px] max-w-[1000px] text-center mx-auto">
           {seoAnalysisNote[effectiveLang]}
-        </p>
+        </p> */}
 
         {/* Statistics Row */}
         <div className="flex justify-center items-center gap-[60px] my-5 flex-wrap max-sm:gap-[30px]">

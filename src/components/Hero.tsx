@@ -13,7 +13,7 @@ export default async function Hero({ locale }: HeroProps) {
       {/* Background Image */}
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('/bg.png')" }}
+        style={{ backgroundImage: "url('/bg.webp')" }}
       />
 
       {/* Dark overlay so text remains readable */}
@@ -54,7 +54,7 @@ export default async function Hero({ locale }: HeroProps) {
           {t('heroTitle')}
         </h1>
 
-        <p className="text-[15px] text-gray-200 leading-relaxed font-semibold mb-8">
+        <p className="text-base sm:text-lg text-gray-200 leading-relaxed font-semibold mb-8">
           {t('heroSubtitle')}
         </p>
 
