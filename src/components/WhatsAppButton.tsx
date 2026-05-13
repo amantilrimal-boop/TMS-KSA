@@ -92,11 +92,6 @@ export default function WhatsAppButton({
     }
   };
 
-  const handleClick = () => {
-    const url = getWhatsAppUrl();
-    window.open(url, '_blank', 'noopener noreferrer');
-  };
-
   const iconSize = iconSizes[size];
   const positionStyle = positionClasses[position];
   const offsetStyle: React.CSSProperties = {};
@@ -134,31 +129,37 @@ export default function WhatsAppButton({
   );
 
   return (
-    <div
-      className={`fixed ${positionStyle} z-50 group ${className}`}
-      style={offsetStyle}
-    >
-      <button
-        onClick={handleClick}
-        className="flex items-center gap-3 px-4 py-3 text-sm font-semibold text-white rounded-full shadow-2xl transition-shadow duration-200 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400"
-        style={{ backgroundColor }}
+    <div className={`fixed ${positionStyle} z-50 flex flex-col gap-3 ${className}`} style={offsetStyle}>
+      <a
+        href={getWhatsAppUrl()}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-14 h-14 rounded-full bg-[#25D366] shadow-2xl transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl flex items-center justify-center"
         aria-label={effectiveTooltipText}
       >
-        <span className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm">
-          <WhatsAppIcon size={iconSize} />
-        </span>
-
-        <span className="text-[0.72rem] leading-tight text-white font-semibold tracking-tight">
-          {effectiveLabelText}
-        </span>
-      </button>
-
-      {showTooltip && (
-        <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap bg-gray-800 text-white text-xs py-1 px-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-          {effectiveTooltipText}
-          <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 border-4 border-transparent border-t-gray-800"></div>
-        </div>
-      )}
+        <WhatsAppIcon size={iconSize} />
+      </a>
+      <a
+        href={`tel:${formatPhoneNumber(phoneNumber)}`}
+        className="w-14 h-14 rounded-full bg-[#075f69] shadow-2xl transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl flex items-center justify-center"
+        aria-label={locale === 'ar' ? 'اتصل بنا' : 'Call us'}
+      >
+        <svg
+          width={iconSize}
+          height={iconSize}
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.64a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"
+            stroke="#ffffff"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </a>
     </div>
   );
 }
